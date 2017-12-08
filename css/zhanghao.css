@@ -1,0 +1,734 @@
+/*
+* @Author: Marte
+* @Date:   2017-11-29 11:24:44
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-11-30 11:20:07
+*/
+/* 点击图标显示或隐藏侧边栏 */
+.xsyc .shouyeleft {
+  position: absolute;
+  left: -160px;
+}
+
+.xsyc .shouyetop {
+  position: relative;
+  height: 58px;
+  background: #f5f5f5;
+  margin-left: 0px;
+}
+
+.xsyc .zh {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  padding-left: 0px;
+  background: #eee;
+  z-index: -1;
+}
+.xsyc .zh nav ul.nav {
+  position:relative;
+  left:28px;
+}
+.shouyetop {
+  position: relative;
+  top: 0px;
+  /* width:100%; */
+  height: 58px;
+  background: #f5f5f5;
+  margin-left: 160px;
+  z-index: 0;
+  min-width:1220px;
+}
+
+/*   主体部分 */
+.zh{
+  position:absolute;
+  width:100%;
+  height:100%;
+  min-height:860px;
+  top:0px;
+  padding-left: 160px;
+  background: #eee;
+  z-index: -1;
+}
+.zh .zhgl{
+ position:relative;
+ width:100%;
+ height:100px;
+ top:60px;
+ min-width:80px;
+}
+.zh .zhtop{
+ position:absolute;
+ width:96%;
+ left: 2%;
+ height:60px;
+ top:25px;
+ z-index:111;
+ color:white;
+ font-size:14px;
+ background-color: white;
+ line-height:60px;
+ padding-left:20px;
+ min-width:1200px;
+}
+.zh .zhtop form{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  min-width:600px;
+}
+.zh .zhtop form span{
+  position:relative;
+  left:20px;
+  color:#333;
+}
+.zh form input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ccc;
+}
+.zh form input{
+  position:relative;
+  left:30px;
+  top:0px;
+  width:100px;
+  height:30px;
+  min-width: 25px;
+  color:white;
+  box-shadow:none;
+  border-radius:5px;
+  border:none;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 5px;
+}
+.zh form input:nth-child(2){
+  background-color:#f8bd0a;
+}
+.zh form input:nth-child(3){
+  background-color:#4d838a;
+}
+.zh form input:nth-child(4),.zh form input:nth-child(5){
+  background-color:#e6d9b0;
+  color:#333;
+}
+.zh form input.ss{
+  width:20%;
+  background-color:#fff;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid #999;
+  color: #000;
+}
+
+.zh .zhnr span a{
+  display:inline-block;
+  position: relative;
+  left:0;
+  top:0;
+  cursor:pointer;
+  line-height:0;
+}
+.zh .zhnr span a.bj{
+  margin-right: 5px;
+}
+.zh .zhnr span a.sc{
+  margin-left: 5px;
+}
+
+.zh .zhnr{
+ position:relative;
+ width:100%;
+ min-height:780px;
+ top:60px;
+ background-color: #eee;
+ min-width:800px;
+}
+.zh nav{
+  position: absolute;
+  bottom: 80px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  width: 96%;
+  left: 2%;
+  max-height: 200px;
+  /*  display:none; */
+}
+.zh nav ul{
+  position:absolute;
+  right:4%;
+  color:#999;
+}
+.zh nav ul li a{
+ color:#333;
+}
+
+.zhnr>ul{
+  position: relative;;
+  width:96%;
+  left:2%;
+  max-height: 500px;
+  background-color: white;
+  overflow: hidden;
+  min-width:1200px;
+}
+.zhnr>ul>li{
+  position:relative;
+  width:100%;
+  height:60px;
+  left:0;
+  min-width:800px;
+}
+.zhnr ul li:nth-child(odd){
+  background-color: #ddd;
+}
+.zhnr ul li:nth-child(even){
+  background-color: #fff;
+}
+.zhnr ul li:nth-child(1){
+  background-color: #000;
+  color:white;
+}
+.zhnr ul li>span{
+ display:inline-block;
+ position:relative;
+ font-size:14px;
+ text-align: center;
+ line-height:60px;
+ word-wrap: break-word;
+ word-break: normal;
+ margin:0;
+ padding:0;
+ left:4%;
+ top:0;
+ width:13%;
+}
+.zhnr ul li>span:nth-child(5){
+  top:-22%;
+  left:1.8%;
+}
+.zhnr ul li:nth-child(1)>span:nth-child(5){
+  top:0;
+  left:5%;
+}
+.zhnr ul li>span a{
+  text-decoration: none;
+  color:#333;
+}
+/* 开关按钮css样式 */
+.zh .zhnr ul li>span.div1 {
+  width: 50px;
+  height: 20px;
+  border-radius: 70px;
+  position: absolute;
+  left: 62.5%;
+  top: 40%;
+}
+
+.zh .zhnr ul li>span.div2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.zh .zhnr ul li>span.open1 {
+  background: #12d4ed;
+}
+
+.zh .zhnr ul li>span.open2 {
+  top: 2px;
+  right: 1px;
+}
+.zh .zhnr ul li input{
+  position:relative;
+  top:0px;
+  width:54px;
+  height:22px;
+  font-size:12px;
+  background-color:#4d848b;
+  color:white;
+  box-shadow:none;
+  border-radius:10px;
+  border:none;
+  line-height: 20px;
+  text-align: center;
+}
+.pagination>.active>a,.pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  color: #fff;
+  border:0;
+  background-color:gold;
+}
+
+/* 账号添加角色部分样式 */
+.zh .zhbj {
+ position: relative;
+ width: 100%;
+ height: 100px;
+ top: 60px;
+ min-width:1220px;
+}
+
+.zh .zhbjxx {
+ position: absolute;
+ width: 96%;
+ left: 2%;
+ height: 50px;
+ top: 25px;
+ z-index: 111;
+ color: white;
+ font-size: 14px;
+ background-color: #444;
+ line-height: 50px;
+ padding-left: 20px;
+}
+
+.zh .zhbjxx a {
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ right: 1%;
+ height: 50px;
+}
+
+.zh .zhbjxx images {
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+
+.zh .zhbjnr {
+ position: relative;
+ width: 100%;
+ height: 300px;
+ top: 60px;
+ background-color: #eee;
+ min-width:1220px;
+}
+.zh .zhbjnrxx{
+ position: relative;
+ width: 96%;
+ left: 2%;
+ height: 10%;
+ min-height: 780px;
+ background-color: white;
+}
+
+.zh .zhjbxx {
+ position: absolute;
+ width: 90%;
+ left: 5%;
+ height: 32px;
+ border-radius: 6px;
+ top: 15px;
+ z-index: 111;
+ color: white;
+ font-size: 14px;
+ background-color: #719ca1;
+ line-height: 32px;
+ padding-left: 20px;
+}
+.zhbjnrxx>div{
+ position:relative;
+ width:84%;
+ left:8%;
+ height:600px;
+ top:70px;
+}
+.zhbjnrxx form {
+  position:relative;
+  width:100%;
+  height:0%;
+}
+.zhbjnrxx form span {
+  position: relative;
+}
+.zhbjnrxx form div {
+  position: absolute;
+  top: -6px;
+  right: 12px;
+  color: red;
+}
+.zh .zhbjnrxx form input {
+  position: relative;
+  left: 10px;
+  width: 200px;
+  height:30px;
+  background-color: #fff;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid #999;
+  color:#000;
+}
+
+.zh .rwxz {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 32px;
+  border-radius: 6px;
+  top: 36%;
+  z-index: 111;
+  color: white;
+  font-size: 14px;
+  background-color: #719ca1;
+  line-height: 32px;
+  padding-left: 20px;
+}
+.zh .rwxzkj{
+ position:absolute;
+ width:84%;
+ left:8%;
+ height:160px;
+ top:42%;
+ background-color: white;
+}
+.zh .rwxzkj .rwxznr{
+  position:relative;
+  top:20px;
+  left:20px;
+}
+
+.zh .mdqx {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 32px;
+  border-radius: 6px;
+  top: 62%;
+  z-index: 111;
+  color: white;
+  font-size: 14px;
+  background-color: #719ca1;
+  line-height: 32px;
+  padding-left: 20px;
+}
+.zh .mdqxkj{
+ position:absolute;
+ width:84%;
+ left:8%;
+ height:160px;
+ top:74%;
+ background-color: white;
+ border: 1px solid #ccc;
+ overflow: auto;
+ overflow-x:hidden;
+}
+.zh .mdqxkj .mdqxnr{
+  position:relative;
+  top:20px;
+  left:20px;
+}
+
+.zh  span.xz{
+ position: absolute;
+ right: 9%;
+ bottom: 8%;
+ border: 0;
+ outline: none;
+ box-shadow: none;
+ display:inline-block;
+ width:80px;
+ height:30px;
+ line-height: 30px;
+ text-align: center;
+ background-color:#333;
+ color:#fff;
+ border-radius:4px;
+}
+
+.zh .zhbjnrxx input.sr{
+ position:relative;
+ top:-70px;
+ display:inline-block;
+ left:8%;
+ max-width:300px;
+ width:15%;
+ height:30px;
+ outline: none;
+ box-shadow: none;
+ border: 1px solid #999;
+}
+.zh .zhbjnrxx input.ss{
+ position:relative;
+ top:-70px;
+ display:inline-block;
+ left:8%;
+ width:90px;
+ height:30px;
+ outline: none;
+ box-shadow: none;
+ border-radius:4px;
+ border: 0;
+ background-color:gold;
+ color:#fff;
+}
+.zh .zhbjnrxx input.lbss{
+ position:relative;
+ top:-70px;
+ display:inline-block;
+ left:8%;
+ max-width:300px;
+ width:90px;
+ height:30px;
+ outline: none;
+ box-shadow: none;
+ border: 0;
+ border-radius:4px;
+ background-color:red;
+ color:#fff;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #999;
+}
+
+.zh .btn-primary, .zh .btn-primary:active {
+  background-color: #FFD700;
+  width: 70px;
+  position: absolute;
+  right: 8%;
+  bottom: 1px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.zh .rwxzkj .rwxznr ul > li {
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  background-color: white;
+  padding: 0;
+  border: 0;
+}
+.zh .zhbjnrxx form label{
+  position:relative;
+  width:10%;
+  min-width:150px;
+}
+.zh .zhbjnrxx form input.fx {
+  position: relative;
+  left: 0px;
+  width: 50px;
+  height:16px;
+  background-color: #fff;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  top:0;
+}
+.zh .zhbjnrxx form label span {
+  position:relative;
+  color:#333;
+  font-size:14px;
+  font-weight: 400;
+  vertical-align: middle;
+  top:-5px;
+  left:-10px;
+}
+/* 列表搜索页面部分 */
+.zh .zhbjnrxx .zhlbss{
+  position: relative;
+  left: 7%;
+  top:60px;
+  width: 50%;
+  height: 30px;
+  background-color: #fff;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid #999;
+  color: #000;
+}
+.zh .zhbjnrxx .zhlbcx{
+  position: relative;
+  top: 60px;
+  left: 8%;
+  width: 90px;
+  height: 30px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 4px;
+  border: 0;
+  background-color: gold;
+  color: #fff;
+}
+.zh .mdqxkjlb{
+ position:absolute;
+ width:84%;
+ left:7%;
+ min-height:560px;
+ hieght:70%;
+ top:120px;
+ background-color: white;
+ border: 1px solid #ccc;
+ overflow: auto;
+ overflow-x:hidden;
+}
+.zh  span.xzlb{
+ position: absolute;
+ right: 11%;
+ bottom: 10%;
+ border: 0;
+ outline: none;
+ box-shadow: none;
+ display:inline-block;
+ width:80px;
+ height:30px;
+ line-height: 30px;
+ text-align: center;
+ background-color:#333;
+ color:#fff;
+ border-radius:4px;
+}
+
+/* 活动日志页面部分 */
+.zh .zhrz {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  top: 100px;
+  background-color: #eee;
+  min-width: 1220px;
+}
+.zh .zhrzxx {
+  position: relative;
+  width: 96%;
+  left: 28px;
+  height: 10%;
+  min-height: 720px;
+  border: 1px solid #999;
+}
+.zh nav.lbnav{
+  position:absolute;
+  top:140px;
+  height:60px;
+  left:0;
+}
+.zh nav ul.nav{
+  position:relative;
+  left:188px;
+  height:100%;
+  width:200px;
+}
+
+.zh nav ul.nav li{
+  position:relative;
+  height:40px;
+  top:19px;
+  z-index:1;
+}
+.zh nav ul.nav li a{
+  position:relative;
+  background-color:#eee;
+  border:0;
+}
+.zh nav .nav-tabs > li.active > a {
+  border-radius:0;
+  border: 1px solid #999;
+  border-bottom: 1px solid #eee;
+  background-color:#eee;
+}
+.zh .rzlb {
+  position: relative;
+  width: 96%;
+  left: 2%;
+  top:4%;
+  height: 92%;
+  min-height: 500px;
+  background-color:#fff;
+}
+.zh .rzxx{
+  position:relative;
+  top:60px;
+  left:50px;
+}
+.zh .rzxx li {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  min-height: 60px;
+  left: 0;
+  min-width: 800px;
+}
+.zh .rzxx li>span {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  width:auto;
+  margin-right: 20px;
+  text-align: left;
+  top: 0;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.zh .rzxx li>span:nth-child(3){
+  margin-left: 80px;
+}
+
+/* 账号批量导入部分 */
+.zh .zhbjnrxx div.drsm {
+  position: relative;
+  top: 50px;
+  left: 5%;
+  height:auto;
+}
+.zh .zhbjnrxx div.drsm span:nth-child(1) {
+  color: red;
+}
+.zh .zhbjnrxx form.drnr {
+  position: relative;
+  width: 90%;
+  height: 200px;
+  left: 5%;
+  top: 70px;
+}
+.zh .zhbjnrxx form.drnr button:nth-child(1) {
+  border: 1px solid #999;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.zh .zhbjnrxx form.drnr input:nth-child(3) {
+  position: absolute;
+  top: 40px;
+  height: 26px;
+  border: 1px solid #999;
+  background-color: #fff;
+  left: 0;
+  max-width: 300px;
+  width: 30%;
+}
+.zh .zhbjnrxx form.drnr button:nth-child(4) {
+  position: relative;
+  top: 40px;
+  left: 180px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #999;
+  padding: 2px 10px;
+  height: 26px;
+}
+.zh .zhbjnrxx form.drnr button:nth-child(5) {
+  position: relative;
+  top: 40px;
+  left: 190px;
+  background-color: #FFD700;
+  width: 120px;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  border-radius: 5px;
+  height: 26px;
+  color: #fff;
+}

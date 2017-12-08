@@ -1,0 +1,860 @@
+/*
+* @Author: Marte
+* @Date:   2017-11-27 10:32:14
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-11-30 11:16:55
+*/
+/* 点击图标显示或隐藏侧边栏 */
+.xsyc .shouyeleft {
+  position: absolute;
+  left: -160px;
+}
+
+.xsyc .shouyetop {
+  position: relative;
+  height: 58px;
+  background: #f5f5f5;
+  margin-left: 0px;
+}
+
+.xsyc .mf {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  padding-left: 0px;
+  background: #eee;
+  z-index: -1;
+}
+.shouyetop {
+  position: relative;
+  top: 0px;
+  /* width:100%; */
+  height: 58px;
+  background: #f5f5f5;
+  margin-left: 160px;
+  z-index: 0;
+  min-width:1220px;
+}
+
+/*   主体部分 */
+.mf{
+  position:absolute;
+  width:100%;
+  height:100%;
+  min-height:860px;
+  top:0px;
+  padding-left: 160px;
+  background: #eee;
+  z-index: -1;
+}
+.mf .mfgl{
+ position:relative;
+ width:100%;
+ height:100px;
+ top:60px;
+ min-width:80px;
+}
+.mf .mftop{
+ position:absolute;
+ width:96%;
+ left: 2%;
+ height:60px;
+ top:25px;
+ z-index:111;
+ color:white;
+ font-size:14px;
+ background-color: white;
+ line-height:60px;
+ padding-left:20px;
+ min-width:1200px;
+}
+.mf .mftop form{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  min-width:600px;
+}
+.mf .mftop form span{
+  position:relative;
+  left:20px;
+  color:#333;
+}
+.mf form input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ccc;
+}
+.mf form input{
+  position:relative;
+  left:30px;
+  top:0px;
+  width:100px;
+  height:30px;
+  min-width: 25px;
+  color:white;
+  box-shadow:none;
+  border-radius:5px;
+  border:none;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 5px;
+}
+.mf form input:nth-child(odd){
+  background-color:#f8bd0a;
+}
+.mf form input:nth-child(even){
+  background-color:#4d838a;
+}
+.mf .mfnr span a{
+  display:inline-block;
+  position: relative;
+  left:0;
+  top:0;
+  cursor:pointer;
+  line-height:0;
+}
+
+.mf .mfnr{
+ position:relative;
+ width:100%;
+ min-height:780px;
+ top:60px;
+ background-color: #eee;
+ min-width:800px;
+}
+.mf nav{
+  position: absolute;
+  bottom: 80px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  width: 96%;
+  left: 2%;
+  max-height: 200px;
+  /*  display:none; */
+}
+.mf nav ul{
+  position:absolute;
+  right:4%;
+  color:#999;
+}
+.mf nav ul li a{
+ color:#333;
+}
+
+.mfnr>ul{
+  position: relative;;
+  width:96%;
+  left:2%;
+  max-height: 500px;
+  background-color: white;
+  overflow: hidden;
+  min-width:1200px;
+  display:none;
+}
+.mfnr>ul:nth-child(1){
+ display: block;
+}
+.mfnr>ul>li{
+  position:relative;
+  width:100%;
+  height:60px;
+  left:0;
+  min-width:800px;
+}
+.mfnr ul li:nth-child(odd){
+  background-color: #ddd;
+}
+.mfnr ul li:nth-child(even){
+  background-color: #fff;
+}
+.mfnr ul li:nth-child(1){
+  background-color: #000;
+  color:white;
+}
+.mfnr ul li>span{
+ display:inline-block;
+ position:relative;
+ font-size:14px;
+
+ text-align: center;
+ line-height:60px;
+ word-wrap: break-word;
+ word-break: normal;
+ margin:0;
+ padding:0;
+ left:4%;
+}
+.mfnr ul:nth-child(1) li>span{
+ width:15.6%;
+ height:100%;
+}
+.mfnr ul:nth-child(2) li>span{
+  width:13%;
+  height:100%;
+}
+.mfnr ul:nth-child(2) li>span a{
+  text-decoration: none;
+  color:#333;
+}
+.mfnr ul:nth-child(1) li>span a{
+  text-decoration: none;
+  color:#333;
+}
+.mfnr ul li input{
+  position:relative;
+  top:0px;
+  width:54px;
+  height:22px;
+  font-size:12px;
+  background-color:#4d848b;
+  color:white;
+  box-shadow:none;
+  border-radius:10px;
+  border:none;
+  line-height: 20px;
+  text-align: center;
+}
+.pagination>.active>a,.pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  color: #fff;
+  border:0;
+  background-color:gold;
+}
+
+/* 计划列表明访编辑页面部分*/
+.mf .mfbj {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  top: 60px;
+  min-width:800px;
+}
+
+.mf .mfbjxx {
+  position: absolute;
+  width: 96%;
+  left: 2%;
+  height: 50px;
+  top: 25px;
+  z-index: 111;
+  color: white;
+  font-size: 14px;
+  background-color: #444;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.mf .mfbjxx a {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 1%;
+  height: 50px;
+}
+
+.mf .mfbjxx images {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.mfnr>ul.bjxx{
+  max-height: 800px;
+}
+.mfnr ul.bjxx li{
+ position:relative;
+ width:100%;
+ height:20%;
+ min-height:60px;
+ left:0;
+ min-width:800px;
+}
+.mfnr ul.bjxx li:nth-child(even){
+  background-color: #ddd;
+}
+.mfnr ul.bjxx li:nth-child(odd){
+  background-color: #fff;
+}
+.mfnr ul.bjxx li>span{
+  display:inline-block;
+  position:relative;
+  font-size:14px;
+  width:90%;
+  text-align: left;
+  top:0;
+  margin:0;
+  padding:0;
+  left:5%;
+  height:50%;
+  line-height:20px;
+  margin:1.5% 0 1.5% 0;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.mfnr ul.bjxx li:nth-child(1){
+  background-color: #fff;
+  color:#222;
+}
+/* 任务列表明访编辑页面部分*/
+.mf .mfnrxx{
+ position: absolute;
+ width: 96%;
+ left: 2%;
+ height: 92%;
+ top: 0px;
+ z-index: 111;
+ font-size: 14px;
+ line-height: 50px;
+ padding-left: 20px;
+ background-color: #fff;
+ min-height: 500px;
+ min-width:1180px;
+}
+.mf .lbnr{
+  position:relative;
+  width:90%;
+  height:80%;
+  min-height:60px;
+  left:5%;
+  top:10%;
+  min-width:200px;
+  border: 1px solid #999;
+}
+.mf .lbnr span{
+  display:inline-block;
+  line-height:30px;
+  position:relative;
+  left:2%;
+  top:5%;
+  width:96%;
+}
+.mf .mfnrxx span:nth-child(2){
+  display:inline-block;
+  background-color: #FFD700;
+  width: 70px;
+  height:36px;
+  line-height:36px;
+  text-align: center;
+  border-radius:4px;
+  position: absolute;
+  right: 4.6%;
+  bottom: 20px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  color:#fff;
+  cursor:pointer;
+}
+
+/* 明访编辑部分样式 */
+.mf .mfbj {
+ position: relative;
+ width: 100%;
+ height: 100px;
+ top: 60px;
+ min-width:1220px;
+}
+
+.mf .mfbjxx {
+ position: absolute;
+ width: 96%;
+ left: 2%;
+ height: 50px;
+ top: 25px;
+ z-index: 111;
+ color: white;
+ font-size: 14px;
+ background-color: #444;
+ line-height: 50px;
+ padding-left: 20px;
+}
+
+.mf .mfbjxx a {
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ right: 1%;
+ height: 50px;
+}
+
+.mf .mfbjxx images {
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+
+.mf .mfbjnr {
+ position: relative;
+ width: 100%;
+ height: 300px;
+ top: 60px;
+ background-color: #eee;
+ min-width:1220px;
+}
+.mf .mfbjnrxx  {
+ position: relative;
+ width: 96%;
+ left: 2%;
+ height: 10%;
+ min-height: 780px;
+ background-color: white;
+}
+
+.mf .mfjbxx {
+ position: absolute;
+ width: 90%;
+ left: 5%;
+ height: 32px;
+ border-radius: 6px;
+ top: 15px;
+ z-index: 111;
+ color: white;
+ font-size: 14px;
+ background-color: #719ca1;
+ line-height: 32px;
+ padding-left: 20px;
+}
+.mfbjnrxx>div{
+ position:relative;
+ width:84%;
+ left:8%;
+ height:600px;
+ top:70px;
+}
+.mfbjnrxx form {
+  position:relative;
+  width:100%;
+  height:0%;
+}
+.mfbjnrxx form span {
+  position: relative;
+}
+.mfbjnrxx form span:nth-child(5) {
+  top:-90px;
+}
+.mf .mfbjnrxx form input {
+  position: relative;
+  left: 20px;
+  width: 200px;
+  height:30px;
+  background-color: #fff;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid #999;
+  color:#000;
+}
+.mfbjnrxx form div{
+  position:relative;
+  height:82px;
+}
+.mfbjnrxx form textarea{
+  padding: 0;
+  position:relative;
+  border-radius: 0;
+  top: 0px;
+  left: 20px;
+  width: 92%;
+  min-height: 100px;
+  resize: none;
+  outline: none;
+}
+
+.mfbjnrxx form div select:nth-child(2){
+  top: -20px;
+}
+.mfbjnrxx form div select:nth-child(4){
+  top: -20px;
+  padding-left: 10px;
+}
+.mfbjnrxx form div select:nth-child(5){
+  top: -40px;
+  left: 180px;
+  padding-left: 10px;
+}
+.mfbjnrxx form div select:nth-child(6){
+  top: -60px;
+  left: 280px;
+  padding-left: 10px;
+}
+.mf .mfbjnrxx form select,.mf .mfbjnrxx form select:active {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #aaa;
+}
+
+.mf .rwxz {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 32px;
+  border-radius: 6px;
+  top: 30%;
+  z-index: 111;
+  color: white;
+  font-size: 14px;
+  background-color: #719ca1;
+  line-height: 32px;
+  padding-left: 20px;
+}
+.mf .rwxzkj{
+ position:absolute;
+ width:84%;
+ left:8%;
+ height:160px;
+ top:36%;
+ background-color: white;
+ border: 1px solid #ccc;
+ overflow: auto;
+ overflow-x:hidden;
+}
+.mf .rwxzkj .rwxznr{
+  position:relative;
+  top:20px;
+  left:20px;
+}
+
+.mf .mdxz {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 32px;
+  border-radius: 6px;
+  top: 58%;
+  z-index: 111;
+  color: white;
+  font-size: 14px;
+  background-color: #719ca1;
+  line-height: 32px;
+  padding-left: 20px;
+}
+.mf .mdxzkj{
+ position:absolute;
+ width:84%;
+ left:8%;
+ height:180px;
+ top:71%;
+ background-color: white;
+ border: 1px solid #ccc;
+ overflow: auto;
+ overflow-x:hidden;
+}
+.mf .mdxzkj .mdxznr{
+  position:relative;
+  top:20px;
+  left:20px;
+}
+
+.mf  span.xz{
+ position: absolute;
+ right: 9%;
+ bottom: 8%;
+ border: 0;
+ outline: none;
+ box-shadow: none;
+ display:inline-block;
+ width:80px;
+ height:30px;
+ line-height: 30px;
+ text-align: center;
+ background-color:#ddd;
+ border-radius:4px;
+}
+
+.mf .mfbjnr input.sr{
+ position:relative;
+ top:-100px;
+ display:inline-block;
+ left:8%;
+ max-width:300px;
+ width:15%;
+ height:30px;
+ outline: none;
+ box-shadow: none;
+ border: 1px solid #999;
+}
+.mf .mfbjnr input.ss{
+ position:relative;
+ top:-100px;
+ display:inline-block;
+ left:8%;
+ width:90px;
+ height:30px;
+ outline: none;
+ box-shadow: none;
+ border-radius:4px;
+ border: 0;
+ background-color:gold;
+ color:#fff;
+}
+.mf .mfbjnr input.lbss{
+ position:relative;
+ top:-100px;
+ display:inline-block;
+ left:8%;
+ max-width:300px;
+ width:90px;
+ height:30px;
+ outline: none;
+ box-shadow: none;
+ border: 0;
+ border-radius:4px;
+ background-color:red;
+ color:#fff;
+}
+
+.mf .mfbjnr input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #999;
+}
+
+.mf .btn-primary, .mf .btn-primary:active {
+  background-color: #FFD700;
+  width: 70px;
+  position: absolute;
+  right: 8%;
+  bottom: 1px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+/* 任务指标页面*/
+.mf .rwmfnr{
+ position:relative;
+ width:100%;
+ min-height:780px;
+ top:60px;
+ background-color: #eee;
+ min-width:800px;
+}
+.rwmfnr>ul.rwbjxx{
+ position: relative;;
+ width:96%;
+ left:2%;
+ overflow: hidden;
+ min-width:1200px;
+ min-height: 780px;
+ background-color:#fff;
+}
+.rwmfnr ul.rwbjxx li{
+ position:relative;
+ width:100%;
+ height:20%;
+ min-height:60px;
+ left:0;
+ min-width:800px;
+ padding:70px 100px 10px;
+}
+.rwmfnr ul.rwbjxx li span:nth-child(2){
+
+  position: relative;
+  text-align: left;
+  margin-left: -12px;
+  word-break: break-all;
+}
+.rwmfnr ul.rwbjxx li .badge {
+ float: left;
+ background-color: #000;
+ display: block;
+ border-radius: 0;
+ padding: 6px;
+ margin-top: 6px;
+ position:relative;
+ left:-60px;
+}
+
+/* 添加任务页面 */
+.mf .mftjbjnr {
+ position: relative;
+ width: 100%;
+ height: 300px;
+ top: 60px;
+ background-color: #eee;
+ min-width:1220px;
+}
+.mf .mftjbjnrxx  {
+ position: relative;
+ width: 96%;
+ left: 2%;
+ height: 10%;
+ min-height: 780px;
+ background-color: white;
+}
+
+.mf .mftjjbxx {
+ position: absolute;
+ width: 90%;
+ left: 5%;
+ height: 32px;
+ border-radius: 6px;
+ top: 15px;
+ z-index: 111;
+ color: white;
+ font-size: 14px;
+ background-color: #719ca1;
+ line-height: 32px;
+ padding-left: 20px;
+}
+.mftjbjnrxx>div{
+ position:relative;
+ width:84%;
+ left:8%;
+ height:600px;
+ top:100px;
+}
+.mftjbjnrxx form {
+  position:relative;
+  width:100%;
+  height:0%;
+}
+.mftjbjnrxx form span {
+  position: relative;
+}
+ .mftjbjnrxx form span:nth-child(9) {
+  top:-190px;
+}
+.mf .mftjbjnrxx form input {
+  position: relative;
+  left: 20px;
+  width: 200px;
+  height:30px;
+  background-color: #fff;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid #999;
+  color:#000;
+}
+
+.mftjbjnrxx form select {
+    width: 90px;
+    height: 30px;
+    border: 1px solid #999;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    border-radius: 0;
+    top: -25px;
+    left: 83px;
+    padding-left: 10px;
+}
+.mftjbjnrxx form div{
+  position:relative;
+  height:82px;
+}
+.mftjbjnrxx form textarea{
+  padding: 0;
+  position:relative;
+  border-radius: 0;
+  top: -48px;
+  left: 20px;
+  width: 92%;
+  min-height: 160px;
+  resize: none;
+  outline: none;
+}
+.mf .mftjbjnrxx form select,.mf .mftjbjnrxx form select:active {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #aaa;
+}
+
+.mf .rwtjxz {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 32px;
+  border-radius: 6px;
+  top: 52%;
+  z-index: 111;
+  color: white;
+  font-size: 14px;
+  background-color: #719ca1;
+  line-height: 32px;
+  padding-left: 20px;
+}
+.mf .rwtjxzkj{
+ position:absolute;
+ width:84%;
+ left:8%;
+ height:240px;
+ top:62%;
+ background-color: white;
+ border: 1px solid #ccc;
+ overflow: auto;
+ overflow-x:hidden;
+}
+.mf .rwtjxzkj .rwtjxznr{
+  position:relative;
+  top:20px;
+  left:20px;
+}
+
+.mf .btn-primary, .mf .btn-primary:active {
+  background-color: #FFD700;
+  width: 70px;
+  position: absolute;
+  right: 8%;
+  bottom: 1px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+/* 列表搜索部分*/
+.mf .mfbjnrxx .mflbss {
+    position: relative;
+    left: 7%;
+    top: 60px;
+    width: 50%;
+    height: 30px;
+    background-color: #fff;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #999;
+    color: #000;
+}
+.mf .mfbjnrxx .mflbcx {
+    position: relative;
+    top: 60px;
+    left: 8%;
+    width: 90px;
+    height: 30px;
+    outline: none;
+    box-shadow: none;
+    border-radius: 4px;
+    border: 0;
+    background-color: gold;
+    color: #fff;
+}
+.mf .mdqxkjlb {
+    position: absolute;
+    width: 84%;
+    left: 7%;
+    min-height: 560px;
+    height: 78%;
+    top: 120px;
+    background-color: white;
+    border: 1px solid #ccc;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.mf span.xzlb {
+    position: absolute;
+    right: 11%;
+    bottom: 10%;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}

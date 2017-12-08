@@ -1,0 +1,521 @@
+/*
+* @Author: Marte
+* @Date:   2017-11-22 14:03:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-12-08 09:28:19
+*/
+.md{
+  position:absolute;
+  width:100%;
+  height:100%;
+ /*  min-height:860px; */
+  top:0px;
+  padding-left: 160px;
+  background: #eee;
+  z-index: -1;
+}
+.md .mdgl{
+ position:relative;
+ width:100%;
+ height:100px;
+ top:60px;
+ min-width:400px;
+}
+.md .mddm{
+ position:absolute;
+ width:96%;
+ left: 2%;
+ height:60px;
+ top:25px;
+ z-index:111;
+ color:white;
+ font-size:14px;
+ background-color: white;
+ line-height:60px;
+ padding-left:20px;
+ min-width:400px;
+}
+.md .mddm form{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  min-width:400px;
+}
+.md .mddm form span{
+  position:relative;
+  left:20px;
+  color:#333;
+}
+.md form input{
+  position:relative;
+  top:0;
+  display:inline-block;
+  left:20px;
+  max-width:300px;
+  width:30%;
+  height:30px;
+  outline: none;
+  box-shadow: none;
+}
+.md form input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ccc;
+}
+.md form input.cx{
+  position:relative;
+  top:0px;
+  width:100px;
+  height:30px;
+  min-width: 25px;
+  background-color: gold;
+  color:white;
+  box-shadow:none;
+  border-radius:5px;
+  border:none;
+  line-height: 30px;
+  text-align: center;
+}
+.md form input.dr{
+  position:relative;
+  top:0px;
+  width:100px;
+  height:30px;
+  min-width: 25px;
+  background-color:#e6d980;
+  color:#333;
+  box-shadow:none;
+  border-radius:5px;
+  border:none;
+  line-height: 30px;
+  text-align: center;
+}
+
+.md .mdnr{
+ position:relative;
+ width:100%;
+/*  min-height:780px; */
+height:calc(100% - 170px);
+ top:60px;
+ background-color: #eee;
+ overflow:auto;
+}
+.md .mdnrleft{
+ position:absolute;
+ width:20%;
+ min-width:220px;
+ left:2%;
+ /* height:780px; */
+ height:100%;
+ background-color: white;
+ overflow: auto;
+ overflow-x:hidden;
+}
+.md .mdnrright{
+ position:absolute;
+ top:0;
+ width:74%;
+ min-width:200px;
+ left:24%;
+ height:100%;
+ /* min-height:780px; */
+ background-color: white;
+}
+/* ztree部分样式*/
+.md .mdnrleft .leftnr{
+  position:relative;
+  top:20px;
+  left:20px;
+}
+.md .mdnrleft .leftnr li{
+  margin:5px 0 0 0;
+}
+.md .mdnrleft .leftnr li a span:nth-child(2){
+ display: inline-block;
+ font-size:14px;
+ padding:0 10px 0 1px;
+ border-radius:10px;
+ height:20px;
+ line-height: 20px;
+ text-align: center;
+}
+.md .mdnrleft .leftnr li a span:nth-child(2):hover{
+  color:white;
+  background-color: red;
+}
+.md .mdnrleft .leftnr li span.button{
+  margin:0 5px 5px 0;
+}
+
+/*  门店信息部分  */
+.mdnrright ul{
+  position:relative;
+  width:100%;
+  height:100%;
+}
+.mdnrright ul li{
+  position:relative;
+  width:100%;
+  height:6.66%;
+  left:0;
+  min-width:800px;
+}
+.mdnrright ul li:nth-child(odd){
+  background-color: #ddd;
+}
+.mdnrright ul li:nth-child(even){
+  background-color: #fff;
+}
+.mdnrright ul li:nth-child(1){
+  background-color: #000;
+  color:white;
+}
+
+.mdnrright ul li>span{
+  display:inline-block;
+  position:relative;
+  font-size:14px;
+  width:16.2%;
+  text-align: center;
+  top:35%;
+}
+.mdnrright ul li>span:last-child{
+  display:inline-block;
+  position:absolute;
+  right:0;
+  font-size:14px;
+  width:16.6%;
+  text-align: center;
+  top:35%;
+}
+
+
+.mdnrright ul li a{
+  position:relative;
+  width:26px;
+  height:26px;
+  margin:0;
+  padding:0;
+  top:0px;
+  cursor:pointer;
+}
+.mdnrright ul li img{
+  position:relative;
+  left:0;
+  top:0;
+}
+
+
+/* 开关按钮css样式 */
+.mdnrright .div1{
+ /*  width:16%; */
+ width: 50px;
+    height: 20px;
+    border-radius: 70px;
+ position: absolute;
+ left: 72.2%;
+ top:40%;
+}
+.mdnrright .div2{
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
+.mdnrright .open1{
+  background: #12d4ed;
+}
+.mdnrright .open2{
+  top: 2px;
+  right: 1px;
+}
+.mdnrright .close1{
+  background: rgba(255,255,255,0.4);
+  border:2px solid rgba(0,0,0,0.15);
+  border-left: transparent;
+    //background-color: #green;
+  }
+  .mdnrright .close2{
+    left: 2px;
+    top: -1px;
+    border:2px solid rgba(0,0,0,0.1);
+  }
+  /* 点击图标显示或隐藏侧边栏 */
+  .xsyc .shouyeleft {
+    position: absolute;
+    left: -160px;
+  }
+
+  .xsyc .shouyetop {
+    position: relative;
+    height: 58px;
+    background: #f5f5f5;
+    margin-left: 0px;
+  }
+
+  .xsyc .md {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    padding-left: 0px;
+    background: #eee;
+    z-index: -1;
+  }
+  /* 门店编辑部分样式 */
+  .md .mdbj {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: 60px;
+  }
+
+  .md .mdbjxx {
+    position: absolute;
+    width: 96%;
+    left: 2%;
+    height: 50px;
+    top: 25px;
+    z-index: 111;
+    color: white;
+    font-size: 14px;
+    background-color: #444;
+    line-height: 50px;
+    padding-left: 20px;
+  }
+
+  .md .mdbjxx a {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 1%;
+    height: 50px;
+  }
+
+  .md .mdbjxx images {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .md .mdbjnr {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 60px;
+    background-color: #eee;
+  }
+  .md .mdbjnrxx  {
+    position: relative;
+    width: 96%;
+    left: 2%;
+    height: 10%;
+    min-height: 780px;
+    background-color: white;
+  }
+
+  .md .mdjbxx {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 32px;
+    border-radius: 6px;
+    top: 15px;
+    z-index: 111;
+    color: white;
+    font-size: 14px;
+    background-color: #719ca1;
+    line-height: 32px;
+    padding-left: 20px;
+  }
+  .mdbjnrxx>div{
+   position:relative;
+   width:84%;
+   left:8%;
+   height:600px;
+   top:70px;
+ }
+ .mdbjnrxx form {
+  position:relative;
+  width:100%;
+  height:0%;
+}
+.mdbjnrxx form span {
+  position: relative;
+}
+.mdbjnrxx form span:nth-child(26) {
+  top:-80px;
+}
+.mdbjnrxx form input {
+  position: relative;
+  left: 20px;
+  width: 200px;
+  height:20px;
+}
+.mdbjnrxx form div{
+  position:relative;
+  height:82px;
+}
+.mdbjnrxx form select{
+  width: 90px;
+  height: 20px;
+  padding:0;
+  line-height20px;
+  text-align: center;
+  position:relative;
+  border-radius: 0;
+  top: 0px;
+  left: 83px;
+  padding-left: 10px;
+}
+.mdbjnrxx form textarea{
+  padding: 0;
+  position:relative;
+  border-radius: 0;
+  top: 0px;
+  left: 20px;
+  width: 50%;
+  min-height: 100px;
+  resize: none;
+  outline: none;
+}
+
+.mdbjnrxx form div select:nth-child(2){
+  top: -20px;
+}
+.mdbjnrxx form div select:nth-child(4){
+  top: -20px;
+  padding-left: 10px;
+}
+.mdbjnrxx form div select:nth-child(5){
+  top: -40px;
+  left: 180px;
+  padding-left: 10px;
+}
+.mdbjnrxx form div select:nth-child(6){
+  top: -60px;
+  left: 280px;
+  padding-left: 10px;
+}
+.md .mdbjnrxx form select,.md .mdbjnrxx form select:active {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #aaa;
+}
+
+.md .cjqx {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 32px;
+  border-radius: 6px;
+  top: 67%;
+  z-index: 111;
+  color: white;
+  font-size: 14px;
+  background-color: #719ca1;
+  line-height: 32px;
+  padding-left: 20px;
+}
+.md .cjxqkj{
+ position:absolute;
+ width:84%;
+ left:8%;
+ height:160px;
+ top:74%;
+ background-color: white;
+ border: 1px solid #ccc;
+ overflow: auto;
+ overflow-x:hidden;
+}
+.md .cjxqkj .cjxqnr{
+  position:relative;
+  top:20px;
+  left:20px;
+}
+.md .btn-primary, .md .btn-primary:active {
+  background-color: #FFD700;
+  width: 70px;
+  position: absolute;
+  right: 8%;
+  bottom: 1px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+/* 批量导入部分样式 */
+.md .pldr {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  top: 60px;
+  background-color: #eee;
+}
+.md .pldrxx  {
+  position: relative;
+  width: 96%;
+  left: 2%;
+  height: 10%;
+  min-height: 780px;
+  background-color: white;
+}
+.md .pldrxx div{
+  position:relative;
+  top:50px;
+  left:5%;
+}
+.md .pldrxx span:nth-child(1){
+  color:red;
+}
+.md .pldrxx form{
+  position:relative;
+  width:90%;
+  height:200px;
+  left:5%;
+  top:70px;
+}
+.md .pldrxx form input{
+  position:relative;
+  left:0;
+}
+.md .pldrxx form button:nth-child(1){
+  border: 1px solid #999;
+  background-color:#fff;
+  border-radius:6px;
+}
+.md .pldrxx form input:nth-child(3){
+  position:absolute;
+  top:40px;
+  height:26px;
+  border: 1px solid #999;
+  background-color:#fff;
+
+}
+.md .pldrxx form button:nth-child(4){
+  position:relative;
+  top:40px;
+  left:180px;
+  background-color:#fff;
+  border-radius:4px;
+  border: 1px solid #999 ;
+  padding:2px 10px;
+  height:26px;
+}
+.md .pldrxx form button:nth-child(5){
+  position:relative;
+  top:40px;
+  left:190px;
+  background-color: #FFD700;
+  width: 120px;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  border-radius:5px;
+  height:26px;
+  color:#fff;
+}
+

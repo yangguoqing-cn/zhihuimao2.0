@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>
+        智慧猫2.0
+    </title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/shouye.css" rel="stylesheet" type="text/css">
+    <link href="css/mendian.css" rel="stylesheet" type="text/css">
+    <link href="css/zTreeStyle/zTreeStyle.css" rel="stylesheet" type="text/css"/>
+    <link href="css/commonStyleSheet.css" rel="stylesheet" type="text/css">
+</link>
+</link>
+</link>
+</link>
+</meta>
+</meta>
+</meta>
+</head>
+<body>
+    <div class="container">
+        <div class="shouyeleft">
+            <div class="syltop">
+                <a href="index.html">
+                    <img alt="Responsive image" class="img-responsive" src="images/xingzhuang-18.png"/>
+                </a>
+            </div>
+            <div class="list-group">
+                <a class="list-group-item" href="quanxian.html">
+                    <img alt="" src="images/quanxianguanli.png">
+                    <span>
+                        权限管理
+                    </span>
+                </img>
+            </a>
+            <a class="list-group-item" href="jibie.html">
+                <img alt="" src="images/jibieguanli.png">
+                <span>
+                    级别管理
+                </span>
+            </img>
+        </a>
+        <a class="list-group-item" href="juese.html">
+            <img alt="" src="images/zhanghaoguanli.png">
+            <span>
+                角色管理
+            </span>
+        </img>
+    </a>
+    <a class="list-group-item active" href="#">
+        <img alt="" src="images/mengdianguanli.png">
+        <span>
+            门店管理
+        </span>
+    </img>
+</a>
+<a class="list-group-item" href="shebei.html">
+    <img alt="" src="images/shebeiguanli.png">
+    <span>
+        设备管理
+    </span>
+</img>
+</a>
+<a class="list-group-item" href="mingfang.html">
+    <img alt="" src="images/mingfangguanli.png">
+    <span>
+        明访管理
+    </span>
+</img>
+</a>
+<a class="list-group-item" href="APPguanli.html">
+    <img alt="" src="images/APPguanli.png">
+    <span>
+        APP管理
+    </span>
+</img>
+</a>
+<a class="list-group-item" href="zhanghao.html">
+    <img alt="" src="images/gerenzhongxin.png">
+    <span>
+        账号管理
+    </span>
+</img>
+</a>
+</div>
+</div>
+<div class="shouyetop">
+    <div class="sytleft">
+        <a href="#">
+            <img alt="" class="img-responsive" src="images/juxing-14.png">
+        </img>
+    </a>
+</div>
+<div class="sytright">
+    <img alt="" class="img-circle xz" src="images/nxs_gk@3x.png">
+    <span>
+        超级管理员
+        <a href="#">
+            <img alt="" class="img-responsive" src="images/xiala.png"/>
+        </a>
+    </span>
+</img>
+</div>
+<div class="geren">
+    <div class="yhm">
+        <img alt="" src="images/xiala.png">
+        <span>
+            <a href="#">
+                超级管理员
+            </a>
+        </span>
+    </img>
+</div>
+<div class="grxx">
+    <span>
+        <a href="gerenxinxi.html">
+            个人信息
+        </a>
+    </span>
+</div>
+<div class="aqtc">
+    <span>
+        <a href="login.html">
+            安全退出
+        </a>
+    </span>
+</div>
+</div>
+</div>
+<div class="md">
+    <div class="mdgl">
+        <div class="mddm">
+            <form>
+                <span>
+                    门店代码：
+                </span>
+                <input class="form-control" name="user" placeholder="请输入门店名" type="text" value="">
+                <input class="cx" type="button" value="查询">
+                <input class="dr" type="button" value="批量导入" onclick="window.location.href='piliangdaoru.html'">
+            </form>
+        </div>
+    </div>
+    <div class="mdnr">
+        <div class="mdnrleft">
+            <div class="leftnr">
+                <ul class="ztree" id="treeDemo">
+                </ul>
+            </div>
+        </div>
+        <!-- 门店信息部分 -->
+        <div class="mdnrright">
+            <ul>
+                <li>
+                    <span>
+                        门店名称
+                    </span>
+                    <span>
+                        门店代码
+                    </span>
+                    <span>
+                        手机号码
+                    </span>
+                    <span>
+                        门店状态
+                    </span>
+                    <span>
+                        账号禁用
+                    </span>
+                    <span>
+                        操作
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        深圳标域(宝安)
+                    </span>
+                    <span>
+                        2700002
+                    </span>
+                    <span>
+                        18636168822
+                    </span>
+                    <span>
+                        未安装
+                    </span>
+                    <div class="div1 open1">
+                        <div class="div2 open2">
+                        </div>
+                    </div>
+                    <span>
+                        <a href="mendianbianji.html">
+                            <img alt="" src="images/edit.png"/>
+                        </a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        深圳标域(宝安)
+                    </span>
+                    <span>
+                        2700002
+                    </span>
+                    <span>
+                        18636168822
+                    </span>
+                    <span>
+                        未安装
+                    </span>
+                    <div class="div1 open1">
+                        <div class="div2 open2">
+                        </div>
+                    </div>
+                    <span>
+                        <a href="mendianbianji.html">
+                            <img alt="" src="images/edit.png"/>
+                        </a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        深圳标域(宝安)
+                    </span>
+                    <span>
+                        2700002
+                    </span>
+                    <span>
+                        18636168822
+                    </span>
+                    <span>
+                        未安装
+                    </span>
+                    <div class="div1 open1">
+                        <div class="div2 open2">
+                        </div>
+                    </div>
+                    <span>
+                     <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    深圳标域(宝安)
+                </span>
+                <span>
+                    2700002
+                </span>
+                <span>
+                    18636168822
+                </span>
+                <span>
+                    未安装
+                </span>
+                <div class="div1 open1">
+                    <div class="div2 open2">
+                    </div>
+                </div>
+                <span>
+                    <a href="mendianbianji.html">
+                        <img alt="" src="images/edit.png"/>
+                    </a>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="bootstrap/jquery-3.2.1.min.js">
+</script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js">
+</script>
+<script src="jquery/shouye.js" type="text/javascript">
+</script>
+<script src="jquery/jquery.ztree.core.js" type="text/javascript">
+</script>
+<script src="jquery/mendian.js" type="text/javascript">
+</script>
+<script src="jquery/jquery.ztree.excheck.js" type="text/javascript">
+</script>
+</body>
+</html>

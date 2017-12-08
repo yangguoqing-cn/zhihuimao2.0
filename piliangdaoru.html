@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>
+    智慧猫2.0
+  </title>
+  <!-- Bootstrap -->
+  <link href="css/zTreeStyle/zTreeStyle.css" rel="stylesheet" type="text/css"/>
+  <link href="css/commonStyleSheet.css" rel="stylesheet" type="text/css">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/shouye.css" rel="stylesheet" type="text/css">
+  <link href="css/mendian.css" rel="stylesheet" type="text/css">
+  <link href="css/commonStyleSheet.css" rel="stylesheet" type="text/css">
+
+  <script src="bootstrap/jquery-3.2.1.min.js">
+  </script>
+</link>
+</link>
+</link>
+</meta>
+</meta>
+</meta>
+</head>
+<body>
+  <div class="container">
+    <!-- /.modal -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="myModaljs02" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+              <span aria-hidden="true">
+                ×
+              </span>
+            </button>
+            <h4 class="modal-title">
+              提示
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="input-group ts">
+            </div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+    </div>
+
+    <div class="shouyeleft">
+      <div class="syltop">
+        <a href="index.html">
+          <img alt="Responsive image" class="img-responsive" src="images/xingzhuang-18.png"/>
+        </a>
+      </div>
+      <div class="list-group">
+        <a class="list-group-item" href="quanxian.html">
+          <img alt="" src="images/quanxianguanli.png">
+          <span>
+            权限管理
+          </span>
+        </img>
+      </a>
+      <a class="list-group-item" href="jibie.html">
+        <img alt="" src="images/jibieguanli.png">
+        <span>
+          级别管理
+        </span>
+      </img>
+    </a>
+    <a class="list-group-item active" href="juese.html">
+      <img alt="" src="images/zhanghaoguanli.png">
+      <span>
+        角色管理
+      </span>
+    </img>
+  </a>
+  <a class="list-group-item" href="mendian.html">
+    <img alt="" src="images/mengdianguanli.png">
+    <span>
+      门店管理
+    </span>
+  </img>
+</a>
+<a class="list-group-item" href="shebei.html">
+  <img alt="" src="images/shebeiguanli.png">
+  <span>
+    设备管理
+  </span>
+</img>
+</a>
+<a class="list-group-item" href="mingfang.html">
+  <img alt="" src="images/mingfangguanli.png">
+  <span>
+    明访管理
+  </span>
+</img>
+</a>
+<a class="list-group-item" href="APPguanli.html">
+  <img alt="" src="images/APPguanli.png">
+  <span>
+    APP管理
+  </span>
+</img>
+</a>
+<a class="list-group-item" href="zhanghao.html">
+  <img alt="" src="images/gerenzhongxin.png">
+  <span>
+    账号管理
+  </span>
+</img>
+</a>
+</div>
+</div>
+<div class="shouyetop">
+  <div class="sytleft">
+    <a href="#">
+      <img alt="" class="img-responsive" src="images/juxing-14.png">
+    </img>
+  </a>
+</div>
+<div class="sytright">
+  <img alt="" class="img-circle xz" src="images/nxs_gk@3x.png">
+  <span>
+    超级管理员
+    <a href="#">
+      <img alt="" class="img-responsive" src="images/xiala.png"/>
+    </a>
+  </span>
+</img>
+</div>
+<div class="geren">
+  <div class="yhm">
+    <img alt="" src="images/xiala.png">
+    <span>
+      <a href="#">
+        超级管理员
+      </a>
+    </span>
+
+</div>
+<div class="grxx">
+  <span>
+    <a href="#">
+      个人信息
+    </a>
+  </span>
+</div>
+<div class="aqtc">
+  <span>
+    <a href="login.html">
+      安全退出
+    </a>
+  </span>
+</div>
+</div>
+</div>
+<div class="md">
+  <div class="mdbj">
+    <div class="mdbjxx">
+      门店管理>批量导入
+      <a href="mendian.html">
+        <img src="images/fanhui.png"/>
+      </a>
+    </div>
+  </div>
+  <div class="pldr">
+    <div class="pldrxx">
+      <div><span>导入说明：</span><span>请下载Excel模板，将账号信息复制到模板中</span></div>
+      <form action="" method="get" accept-charset="utf-8">
+        <button type="button" id="btn1" onclick='downLoad()'>点击下载文件模板</button>
+        <input type="file" id="btn_file" style="display:none">
+        <input  id="wenjian" type="text" name="" value="">
+        <button type="button" onclick="F_Open_dialog()">浏览...</button>
+        <button id="daoru" type="button" data-target="#myModaljs02" data-toggle="modal">开始导入</button>
+      </form>
+
+    </div>
+
+  </div>
+</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="bootstrap/jquery-3.2.1.min.js">
+</script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js">
+</script>
+<script src="jquery/shouye.js" type="text/javascript">
+</script>
+<script type="text/javascript" src="jquery/daoru.js"></script>
+<script type="text/javascript">
+  /*下载文件模板部分*/
+  function downLoad(){
+    window.location.href="http://down.360safe.com/360safe_cq.exe";
+  }
+
+  function F_Open_dialog()
+  {
+    document.getElementById("btn_file").click();/*实现点击浏览按钮出现文件选择*/
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,430 @@
+/*
+* @Author: Marte
+* @Date:   2017-11-30 14:20:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-12-08 11:13:32
+*/
+/* 角色管理部分样式 */
+.three{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  padding-left: 160px;
+  background: #eee;
+  z-index: -1;
+ /*  overflow:auto; */
+  /* overflow: hidden;*/
+}
+
+.logo .jskj {
+  position: relative;
+  width: 100%;
+  /*  min-height: 600px; */
+  top: 80px;
+  background-color: #eee;
+  height:calc(100% - 100px);
+  overflow:auto;
+}
+
+.logo .jskj .jibie {
+  position: relative;
+ /*  overflow: hidden; */
+  width: 96%;
+  left: 2%;
+  height: 100%;
+  /* min-height: 780px; */
+  background-color: white;
+  font-size: 14px;
+  margin-bottom:0;
+}
+
+.logo .jskj .jibie > li {
+  /* position: relative; */
+  width: 100%;
+  /*  min-height: 140px; */
+  height:auto;
+  background-color: white;
+  padding: 0 80px;
+  border: 0;
+  /* padding: 0 80px 1% 80px; */
+}
+
+.logo .jskj .jibie > li .jbnr {
+ position: relative;
+ overflow: hidden;
+ width: 100%;
+ background-color: white;
+ border-top: 1px dashed red;
+ margin-bottom:1%;
+ height:10%;
+}
+
+.logo .jskj .jibie > li .jbnr a {
+  text-decoration: none;
+  color: #333;
+}
+
+.logo .jskj .jibie > li .bybk {
+  border-top: 1px dashed white;
+}
+@media (min-height: 700px) {
+  .logo .jskj .jibie > li .jbnr div {
+  position: absolute;
+  width: 100px;
+  height:100%;
+  background-color: white;
+  border: 0;
+  /*  height: 20px; */
+  text-align: center;
+  margin-top: 2%;
+  }
+  .logo .jskj .jibie > li .jbnr ul {
+ position: relative;
+ height:10%;
+ left: 80px;
+ width: 90%;
+ margin-top: 2%;
+}
+
+.logo .jskj .jibie > li .jbnr ul li {
+  position: relative;
+  top:0;
+  margin-bottom: 2%;
+  width:16%;
+  min-width:140px;
+  height: 85px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 4%;
+  background-color: #f1f2f3;
+  padding: 0;
+  border: 0;
+}
+
+.container .logo .jskj .jibie > li .jbnr ul li:last-child span {
+  top: 36%;
+}
+
+}
+@media (max-height: 700px) {
+  .logo .jskj .jibie > li .jbnr div {
+  position: absolute;
+  width: 100px;
+  height:100%;
+  background-color: white;
+  border: 0;
+  text-align: center;
+  margin-top: 1%;
+  }
+  .logo .jskj .jibie > li .jbnr ul {
+ position: relative;
+ height:10%;
+ left: 80px;
+ width: 90%;
+ margin-top: 1%;
+}
+
+.logo .jskj .jibie > li .jbnr ul li {
+  position: relative;
+  top:0;
+  margin-bottom: 1%;
+  width:16%;
+  min-width:140px;
+  height: 65px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 4%;
+  background-color: #f1f2f3;
+  padding: 0;
+  border: 0;
+}
+
+.container .logo .jskj .jibie > li .jbnr ul li:last-child span {
+  top: 33%;
+}
+
+}
+
+.logo .jskj .jibie > li .jbnr div span {
+  position:absolute;
+  width:100%;
+  left: 0;
+  text-align:left;
+  display:inline-block;
+  line-height: 0px;
+}
+
+.logo .jskj .jibie > li .jbnr ul li div:nth-child(1) {
+  position: relative;
+  width: 100%;
+  height: 72%;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px 10px 0 0;
+  background-color: #f1f2f3;
+}
+
+.logo .jskj .jibie > li .jbnr ul li div:nth-child(2) {
+  position: absolute;
+  width: 100%;
+  height: 28%;
+  top: 72%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 0 10px 10px;
+  background-color: #f1f2f3;
+}
+
+.logo .jskj .jibie > li .jbnr ul li:last-child {
+  background-color: #e4e4e4;
+}
+
+.logo .jskj .jibie > li .jbnr ul li span:nth-child(1) {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top:40%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.logo .jskj .jibie > li .jbnr ul li div a {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+
+
+.logo .jskj .jibie > li .jbnr ul li span:nth-child(2) {
+  position: absolute;
+  width: 100%;
+  top: 82%;
+  left: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #bbb;
+}
+
+.logo .jskj .jibie > li .jbnr ul li .bj, .logo .jskj .jibie > li .jbnr ul li .sc {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.logo .jskj .jibie > li .jbnr ul li .bj {
+  left: 70%;
+}
+
+.logo .jskj .jibie > li .jbnr ul li .sc {
+  left: 86%;
+}
+
+.logo .jskj .jibie > li .jbnr ul li .bj img, .logo .jskj .jibie > li .jbnr ul li .sc img {
+  position: relative;
+  left: 0px;
+  top:5%;
+  height:90%;
+}
+
+/* 角色管理的编辑角色部分 */
+.bjjs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  padding-left: 160px;
+  background: #eee;
+  z-index: -1;
+}
+
+.bjjs .grzx {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  top: 60px;
+
+}
+
+.bjjs .grxx {
+  position: absolute;
+  width: 96%;
+  left: 2%;
+  height: 50px;
+  top: 25px;
+  z-index: 111;
+  color: white;
+  font-size: 14px;
+  background-color: #444;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.bjjs .jsgl {
+  position: relative;
+  width: 100%;
+   height:calc(100% - 162px);
+  top: 60px;
+  background-color: #eee;
+}
+
+.bjjs .grxx a {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 1%;
+  height: 50px;
+}
+
+/* .bjjs .grxx img {
+  display: block;
+  width: 50px;
+  height: 50px;
+} */
+
+.bjjs .jsbj {
+  position: relative;
+  width: 96%;
+  left: 2%;
+  height:97%;
+ /*  bottom:5%; */
+  /* min-height: 760px; */
+  background-color: white;
+
+}
+
+.bjjs .jsbj form {
+  position: absolute;
+  top: 6%;
+  width:90%;
+  left:5%;
+  /* left: 100px; */
+  height:40%;
+}
+
+.bjjs .jsbj form select {
+  width: 90px;
+  height: 30px;
+  padding: 0;
+  margin-top: 5px;
+  position: relative;
+  border-radius: 0;
+  top: -30px;
+  left: 80px;
+  padding-left: 30px;
+}
+
+.bjjs .jsbj form input {
+  position: relative;
+  left: 6px;
+  width: 200px;
+  padding-left: 20px;
+  height: 30px;
+  outline:none;
+}
+
+.bjjs .jsbj form span {
+  position: relative;
+}
+
+.bjjs .jsbj form select, .bjjs .jsbj form select:active, .bjjs .jsbj form input, .bjjs .jsbj form input:active {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #aaa;
+}
+@media (max-height: 700px){
+  .bjjs .jsbj .jskj {
+  position: relative;
+  border: 1px solid #bbb;
+  width: 90%;
+  top:130px;
+  left: 5%;
+  /* left: 100px; */
+  /* min-height: 500px; */
+  height:calc(82% - 100px);
+  background-color: #fff;
+  overflow:auto;
+  /* margin-bottom: 100px; */
+}
+.jsgl .jsbj .btn-primary, .bjjs .jsbj .btn-primary:active {
+  background-color: #FFD700;
+  width: 70px;
+  position: absolute;
+  right: 5%;
+  top: 92%;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+}
+
+@media (min-height: 700px){
+  .bjjs .jsbj .jskj {
+  position: relative;
+  border: 1px solid #bbb;
+  width: 90%;
+  top:140px;
+  left: 5%;
+  /* left: 100px; */
+  /* min-height: 500px; */
+  height:calc(82% - 100px);
+  background-color: #fff;
+  overflow:auto;
+  /* margin-bottom: 100px; */
+}
+.jsgl .jsbj .btn-primary, .bjjs .jsbj .btn-primary:active {
+  background-color: #FFD700;
+  width: 70px;
+  position: absolute;
+  right: 5%;
+  top: 90%;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+}
+
+.bjjs .jsbj .jskj .jsqx {
+  position: relative;
+  top: 30px;
+  left: 20px;
+   width:60%;
+}
+
+.bjjs .jsbj .jskj .jsqxnr {
+  position: relative;
+  top: 5px;
+  left: 80px;
+  width:60%;
+  height:calc(100% - 30px);
+}
+
+.jsgl .jsbj .jskj .jsqxnr li span.button {
+  margin: 0 6px 5px 0;
+}
+.jsgl .jsbj .jskj .jsqxnr li a span{
+ font-size:14px;
+}
+
+
+.xsyc .bjjs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  padding-left: 0px;
+  background: #eee;
+  z-index: -1;
+}
+.ztree {
+height:100%;
+}
+
