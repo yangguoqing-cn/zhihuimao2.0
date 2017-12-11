@@ -81,8 +81,8 @@
       <file leaf-file-name="mendian.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mendian.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68508285">
-              <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.30939227">
+              <caret line="162" column="14" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -287,7 +287,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -709,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mendian.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68508285">
-          <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.30939227">
+          <caret line="162" column="14" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
           <folding />
         </state>
       </provider>
