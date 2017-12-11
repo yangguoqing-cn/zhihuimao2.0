@@ -211,10 +211,10 @@ ul, li, a {
     position:relative;
     width:47.2%;
     height:43.5%;
-    left:27%;
+    left:26.6%;
     top:34.6%;
     min-width:200px;
-    min-height:220px;
+    min-height:270px;
   }
   .logo .symk ul li img {
    position: absolute;
@@ -313,35 +313,43 @@ ul, li, a {
 }
 
 .logo .symk ul li {
-  position: absolute;
+  position: relative;
   background: #fff;
-  width:240px;
+  /*width:240px;*/
+  width:calc(50% - 30px);
   height: 126px;
   font-size: 20px;
   border-radius:10px;
+  float: left;
 }
 
-
+.row{
+  height:50%;
+}
 
 .logo .symk ul .l1 {
   top: 0;
-  left: 0;
+ /* padding:0;*/
+  margin-right: 30px;
+  margin-bottom: 50px;
+ /* left: 0;*/
 }
 
 .logo .symk ul .l2 {
   top: 0;
-  right: 0;
+  margin-left: 30px;
+  margin-bottom: 50px;
+ /* right: 0;*/
 }
 
 .logo .symk ul .l3 {
-  /* top:57.5%; */
   bottom:0;
-  left: 0;
+  margin-right: 30px;
 }
 
 .logo .symk ul .l4 {
   bottom:0;
-  right:0;
+  margin-left: 30px;
 }
 
 .logo ul .l1 img, .logo ul .l2 img {
