@@ -24,7 +24,7 @@
   top: 80px;
   background-color: #eee;
   height:calc(100% - 100px);
-  overflow:auto;
+/*  overflow:auto;*/
 }
 
 .logo .jskj .jibie {
