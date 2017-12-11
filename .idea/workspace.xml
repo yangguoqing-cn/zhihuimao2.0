@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05266bc4-1c17-44bd-bc89-4cee06b98c01" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/juese.css" afterPath="$PROJECT_DIR$/css/juese.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mendian.css" afterPath="$PROJECT_DIR$/css/mendian.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mendian.html" afterPath="$PROJECT_DIR$/mendian.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tianjiajuese.html" afterPath="$PROJECT_DIR$/tianjiajuese.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,8 +81,8 @@
       <file leaf-file-name="mendian.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mendian.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18484288">
-              <caret line="137" column="18" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.68508285">
+              <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -290,7 +287,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -712,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mendian.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18484288">
-          <caret line="137" column="18" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.68508285">
+          <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
           <folding />
         </state>
       </provider>
