@@ -1,9 +1,9 @@
 /*
-* @Author: Marte
-* @Date:   2017-12-05 08:59:54
-* @Last Modified by:   Marte
-* @Last Modified time: 2017-12-06 14:57:53
-*/
+ * @Author: Marte
+ * @Date:   2017-12-05 08:59:54
+ * @Last Modified by:   Marte
+ * @Last Modified time: 2017-12-06 14:57:53
+ */
 
 'use strict';
 $(document).ready(function ($) {
@@ -54,25 +54,41 @@ $(document).ready(function ($) {
     $(document).on("click", ".you li .nr a:last-child img", function (event) {
         var that = this;
         var index = $(that).closest(".list-group-item").index();
-        console.log(index);
         var jibie = $(".logo .kjnr .zuo li").eq(index).find('span').eq(0).html();
+        var length = $(".logo .kjnr .zuo li").length;
+        console.log(index,length);
+
         $(" #myModal03 .modal-body .input-group").html("确定删除[" + jibie + "]?");
 
         $(" #myModal03 .modal-footer .btn-primary").unbind();
-        $(" #myModal03 .modal-footer .btn-primary").click(function (event) {
+      /*  $(document).on("click", " #myModal03 .modal-footer .btn-primary", function (event){*/
+          $(" #myModal03 .modal-footer .btn-primary").click(function (event) {
+            console.log(index,length);
+            if (index == 0) {
+                $(".logo .kjnr .zuo li").eq(index).remove();
+                $("#myModal03").modal("hide");
+                $(that).closest(".list-group-item").next().remove();/*如果是第一个节点，则删除此节点的下一个兄弟节点*/
+            }else if(index==length-2){
+                $(".logo .kjnr .zuo li").eq(index).remove();
+                $("#myModal03").modal("hide");
+                $(that).closest(".list-group-item").prev().remove();/*如果是最后一个可移动节点，则删除此节点的上一个兄弟节点*/
+            }else{
+                $(".logo .kjnr .zuo li").eq(index).remove();
+                $("#myModal03").modal("hide");
+                $(that).closest(".list-group-item").remove();/*如果不满足上述两条条件，则删除此节点自己*/
+            }
 
-            $(".logo .kjnr .zuo li").eq(index).css({"display": "none"});
-            $("#myModal03").modal("hide");
-            $(that).closest(".list-group-item").css({"display": "none"});
         });
     });
 
     /*编辑事件部分*/
-    $(document).on("click",".you li .nr a:nth-last-child(2) img", function (event) {
+    $(document).on("click", ".you li .nr a:nth-last-child(2) img", function (event) {
         var that = this;
         var index = $(that).closest(".list-group-item").index();
         console.log(index);
-        $(".input-group-addon").html("级别" + (index + 1));
+        var jibie = $(".logo .kjnr .zuo li").eq(index).find('span').eq(0).html();
+        var length = $(".logo .kjnr .zuo li").length;
+        $(".input-group-addon").html(jibie);
         $("#myModal02 .modal-footer .btn-primary").off("click");
         /*取消之前的模态框绑定事件，这一步十分重要，花了我一上午才解决。*/
         $("#myModal02 .modal-footer .btn-primary").click(function (event) {
