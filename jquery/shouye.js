@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-11-13 15:57:15
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-12-01 15:56:37
+* @Last Modified time: 2017-12-12 15:18:09
 */
 
 'use strict';
@@ -54,12 +54,12 @@ $(document).ready(function($) {
     });
             $(".zh").click(function(e){
          $(this).closest('.container').find(".shouyeleft .list-group a").eq(8).addClass('active').siblings('a').removeClass("active");
-    });*/
+     });*/
 
 
-/*使侧边栏高度等于窗口加滚动条高度*/
-var h=$(document).height();
-  $(".shouyeleft").css({"height":h});
+     /*使侧边栏高度等于窗口加滚动条高度*/
+     var h=$(document).height();
+     $(".shouyeleft").css({"height":h});
 
 
     //通过tooggleClass方法给body元素添加xsyc类名，
@@ -94,17 +94,17 @@ if($(this).find(".div2").hasClass("close2")){
   $(this).find(".div2").removeClass('close2');
   $(this).find(".div2").addClass('open2');
 }else{
- $(this).find(".div2").removeClass('open2');
- $(this).find(".div2").addClass('close2');
+   $(this).find(".div2").removeClass('open2');
+   $(this).find(".div2").addClass('close2');
 };
    //大开关控制逻辑
    if($(this).hasClass("close1")){
-     $(this).removeClass('close1');
-     $(this).addClass('open1');
- }else{
-     $(this).removeClass('open1');
-     $(this).addClass('close1');
- };
+       $(this).removeClass('close1');
+       $(this).addClass('open1');
+   }else{
+       $(this).removeClass('open1');
+       $(this).addClass('close1');
+   };
 });
 
 /*app管理菜单切换效果*/
@@ -119,6 +119,16 @@ $(".daohang .yj").click(function(e){
 $(".daohang .bb").click(function(e){
     console.log("aaa");
     $(".xiangqing .bb").show().siblings('ul').hide();
+});
+
+/*滚动滚动条时，顶部导航栏保持固定可见*/
+$(window).scroll(function(){
+    var h=$(document).scrollTop();
+    $(".shouyetop").css({"top":h});
+   /* console.log(h);
+   var d=$(document).height();
+var w=$(window).height();
+console.log(d,w);*/
 });
 
 });
