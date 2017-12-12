@@ -260,7 +260,7 @@
   top: 25px;
   z-index: 111;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   background-color: #444;
   line-height: 50px;
   padding-left: 20px;
@@ -306,6 +306,7 @@
   left:5%;
   /* left: 100px; */
   height:40%;
+  font-size:12px;
 }
 
 .bjjs .jsbj form select {
@@ -316,7 +317,7 @@
   position: relative;
   border-radius: 0;
   top: -30px;
-  left: 80px;
+  left: 69px;
   padding-left: 30px;
 }
 
@@ -345,6 +346,7 @@
   width: 90%;
   top:130px;
   left: 5%;
+    font-size: 12px;
   /* left: 100px; */
   /* min-height: 500px; */
   height:calc(82% - 100px);
@@ -377,6 +379,7 @@
   height:calc(82% - 100px);
   background-color: #fff;
   overflow:auto;
+    font-size: 12px;
   /* margin-bottom: 100px; */
 }
 .jsgl .jsbj .btn-primary, .bjjs .jsbj .btn-primary:active {

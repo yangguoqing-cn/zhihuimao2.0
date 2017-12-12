@@ -58,8 +58,8 @@ $(document).ready(function($) {
 
 
 /*使侧边栏高度等于窗口加滚动条高度*/
-/*var h=$(document).height();
-  $(".shouyeleft").css({"height":h});*/
+var h=$(document).height();
+  $(".shouyeleft").css({"height":h});
 
 
     //通过tooggleClass方法给body元素添加xsyc类名，

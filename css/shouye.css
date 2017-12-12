@@ -55,7 +55,7 @@ ul, li, a {
 .shouyeleft .list-group span {
   position: absolute;
   left: 50px;
-  font-size:14px;
+  font-size:12px;
 }
 
 .xsyc .shouyeleft {
@@ -372,7 +372,7 @@ ul, li, a {
    border: 0;
 }
 .modal-title{
-  font-size:16px;
+  font-size:14px;
 
 }
 .modal-dialog .modal-header {
@@ -394,7 +394,7 @@ ul, li, a {
 
 .modal-body .input-group {
   padding-top: 75px;
-  font-size:16px;
+  font-size:14px;
 }
 
 .input-group-addon {
@@ -562,7 +562,7 @@ ul, li, a {
   height: 50px;
 }
 
-.logo .grxx images {
+.logo .grxx img {
   display: block;
   width: 50px;
   height: 50px;
