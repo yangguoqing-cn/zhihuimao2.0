@@ -56,11 +56,9 @@ $(document).ready(function($) {
          $(this).closest('.container').find(".shouyeleft .list-group a").eq(8).addClass('active').siblings('a').removeClass("active");
      });*/
 
-
-     /*使侧边栏高度等于窗口加滚动条高度*/
-     var h=$(document).height();
-     $(".shouyeleft").css({"height":h});
-
+    /*使侧边栏高度等于窗口加滚动条高度*/
+    var h=$(document).height();
+    $(".shouyeleft").css({"height":h});
 
     //通过tooggleClass方法给body元素添加xsyc类名，
     //在css样式表中改变相关元素样式，实现显示或隐藏侧边栏
@@ -123,8 +121,8 @@ $(".daohang .bb").click(function(e){
 
 /*滚动滚动条时，顶部导航栏保持固定可见*/
 $(window).scroll(function(){
-    var h=$(document).scrollTop();
-    $(".shouyetop").css({"top":h});
+    var g=$(document).scrollTop();
+    $(".shouyetop").css({"top":g});
    /* console.log(h);
    var d=$(document).height();
 var w=$(window).height();
