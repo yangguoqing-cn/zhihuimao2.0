@@ -88,7 +88,9 @@
     color: #333;
     font-size: 12px;
 }
-
+.sbei .sbeitop form span:nth-child(3){
+    margin-left:10px;
+}
 .sbei form input {
     position: relative;
     top: 0;
@@ -175,8 +177,8 @@
     height: 20%;
     padding: 0;
     left: 0;
-    overflow:hidden;
-    max-height:60px;
+    overflow: hidden;
+    max-height: 60px;
 
 }
 
@@ -195,6 +197,7 @@
 
 .sbeinr ul:nth-child(1) li > span {
     position: relative;
+    top:0;
     font-size: 12px;
     width: 11%;
     height: 100%;
@@ -202,48 +205,54 @@
     justify-content: center;
     align-items: center;
 }
+
 .sbeinr > ul:nth-child(3) li:nth-child(1) > span {
     font-size: 14px;
 }
-@media (min-width: 1120px){
+
+@media (min-width: 1120px) {
     .sbeinr > ul:nth-child(3) li > span {
         position: relative;
         font-size: 12px;
         width: 13%;
-        left:5%;
+        left: 5%;
         height: 100%;
         display: inline-flex;
         justify-content: center;
         align-items: center;
     }
 }
-@media (min-width: 992px)and (max-width:1120px){
+
+@media (min-width: 992px)and (max-width: 1120px) {
     .sbeinr > ul:nth-child(3) li > span {
         position: relative;
         font-size: 12px;
         width: 10%;
-        left:5%;
+        left: 5%;
         height: 100%;
         display: inline-flex;
         justify-content: center;
         align-items: center;
     }
-    .sbeinr > ul:nth-child(3) li > span:nth-child(1), .sbeinr > ul:nth-child(3) li > span:nth-child(4),.sbeinr > ul:nth-child(3) li > span:nth-child(6) {
+
+    .sbeinr > ul:nth-child(3) li > span:nth-child(1), .sbeinr > ul:nth-child(3) li > span:nth-child(4), .sbeinr > ul:nth-child(3) li > span:nth-child(6) {
         width: 16%;
     }
 }
-@media (min-width: 690px)and (max-width:992px){
+
+@media (min-width: 690px)and (max-width: 992px) {
     .sbeinr > ul:nth-child(3) li > span {
         position: relative;
         font-size: 12px;
         width: 9%;
-        left:2%;
+        left: 2%;
         height: 100%;
         display: inline-flex;
         justify-content: center;
         align-items: center;
     }
-    .sbeinr > ul:nth-child(3) li > span:nth-child(1), .sbeinr > ul:nth-child(3) li > span:nth-child(4),.sbeinr > ul:nth-child(3) li > span:nth-child(6) {
+
+    .sbeinr > ul:nth-child(3) li > span:nth-child(1), .sbeinr > ul:nth-child(3) li > span:nth-child(4), .sbeinr > ul:nth-child(3) li > span:nth-child(6) {
         width: 19%;
     }
 }
@@ -304,7 +313,7 @@
     font-size: 14px;
     background-color: #444;
     line-height: 60px;
-    padding-left: 20px;
+    padding-left: 2.3%;
 }
 
 .sbei .mdxqxx a {
@@ -315,18 +324,12 @@
     height: 50px;
 }
 
-.sbei .mdxqxx img {
-    display: block;
-    width: 50px;
-    height: 50px;
-}
-
 .sbei .jbxx {
     position: relative;
     width: 100%;
     height: 200px;
     top: 60px;
-    min-width: 400px;
+    /*    min-width: 400px;*/
 }
 
 .sbei .jbxxtop {
@@ -340,57 +343,77 @@
     font-size: 14px;
     background-color: white;
     /* line-height:60px; */
-    padding-left: 20px;
-    min-width: 1160px;
+    padding-left: 2%;
+    /* min-width: 1160px;*/
 }
 
-.sbei .jbxxtop span {
-    display: inline-block;
-    position: relative;
-    top: 36%;
-    color: #333;
-    width: 19.8%;
-    left: 40px;
-    min-width: 190px;
-    height: 22%;
-    /* line-height:20px; */
-    text-align: left;
-    font-size: 13px;
+@media (min-width: 1200px) {
+    .sbei .jbxxtop span {
+        display: inline-block;
+        position: relative;
+        top: 36%;
+        color: #333;
+        width: 17%;
+        left: 1.9%;
+        height: 22%;
+        font-size: 12px;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sbei .jbxxtop span:nth-child(5) {
+        width: 42%;
+    }
 }
 
-.sbei .jbxxtop span:nth-child(5) {
-    width: 30%;
-    min-width: 450px;
+@media (min-width: 800px) and (max-width: 1200px) {
+    .sbei .jbxxtop span {
+        display: inline-block;
+        position: relative;
+        top: 36%;
+        color: #333;
+        width: 22%;
+        left: 1.9%;
+        height: 22%;
+        font-size: 12px;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sbei .jbxxtop span:nth-child(5) {
+        width: 30%;
+    }
 }
 
 .sbei .jbxxtop span:nth-child(1) {
     position: absolute;
     width: 60px;
+/*    height:100%;*/
     top: 12%;
-    left: 30px;
-    color: gold;
-    font-size: 15px;
+    left: 2%;
+    color: #f8bd0a;
+    font-size: 14px;
 }
 
 .sbei .sblb {
     position: relative;
     width: 100%;
-    min-height: 580px;
-    min-width: 1160px;
+    height:calc(100% - 370px);
     top: 60px;
     background-color: #eee;
 }
 
 .sblb nav {
     position: absolute;
-    bottom: 80px;
+    bottom: 70px;
     border: 0;
     outline: none;
     box-shadow: none;
     width: 96%;
     left: 2%;
     max-height: 200px;
-    /*  display:none; */
 }
 
 .sblb nav ul {
@@ -404,11 +427,10 @@
 }
 
 .sblb > ul {
-    position: absolute;
+    position: relative;
+    height:calc(100% - 70px);
     width: 96%;
-    min-width: 1160px;
     left: 2%;
-    max-height: 200px;
     background-color: white;
     overflow: hidden;
     display: none;
@@ -432,9 +454,10 @@
 .sblb > ul > li {
     position: relative;
     width: 100%;
-    height: 50px;
+   /* height: 50px;*/
+    height: 20%;
+    max-height:50px;
     left: 0;
-    min-width: 1120px;
 }
 
 .sblb ul li:nth-child(odd) {
@@ -444,25 +467,68 @@
 .sblb ul li:nth-child(even) {
     background-color: #ddd;
 }
-
-.sblb ul li > span {
-    left: 6%;
-    display: inline-block;
-    position: relative;
+@media (min-width: 600px) and (max-width:1000px){
+    .sblb ul li > span {
+        position: relative;
+        top:0;
+        font-size: 12px;
+        width: 9%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sblb ul li > span:nth-child(4),.sblb ul li > span:nth-child(6){
+        width: 18%;
+    }
+    .sblb ul li > span:nth-child(1) {
+        width: 22%;
+    }
+}
+@media (min-width: 1000px)and (max-width:1200px){
+    .sblb ul li > span {
+        position: relative;
+        top:0;
+        font-size: 12px;
+        width: 11%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sblb ul li > span:nth-child(4),.sblb ul li > span:nth-child(6){
+        width: 16%;
+    }
+    .sblb ul li > span:nth-child(1) {
+        width: 20%;
+    }
+}
+@media (min-width: 1200px){
+    .sblb ul li > span {
+        position: relative;
+        top:0;
+        font-size: 12px;
+        width: 12.9%;
+        left:5%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.sblb ul li:nth-child(1) > span:nth-child(1) {
+    position: absolute;
+    width: 60px;
+    top: 0;
+    left: 2%;
+    color: #f8bd0a;
     font-size: 14px;
-    width: 12.6%;
-    text-align: center;
-    height: 100%;
-    /*   top:35%; */
-    min-width: 160px;
-    line-height: 50px;
+    text-align: left;
 }
 
-/* .sblb ul li>span:nth-child(1){
-
-  text-align:right;
-
-  } */
+.sblb ul li:nth-child(2) > span {
+    font-size: 14px;
+}
 
 .sblb ul li input {
     position: relative;
@@ -492,7 +558,7 @@
 
 .sbgl .jskj .jsqxnr li a span:nth-child(2) {
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     padding: 0 10px 0 10px;
     border-radius: 10px;
     height: 20px;
@@ -526,12 +592,14 @@
     width: 100%;
     height: 100px;
     top: 60px;
-    min-width: 1030px;
+  /*  min-width: 1030px;*/
 }
 
 .sbgl .sbnr {
     position: relative;
+    top:0;
     min-width: 560px;
+    height:calc(100% - 100px);
 }
 
 .sbgl .szsbcs {
@@ -542,7 +610,7 @@
     top: 25px;
     z-index: 111;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     background-color: #444;
     line-height: 60px;
     padding-left: 20px;
@@ -551,7 +619,7 @@
 .sbgl .jsgl {
     position: relative;
     width: 100%;
-    min-height: 700px;
+ /*   min-height: 700px;*/
     top: 60px;
     background-color: #eee;
 }
@@ -564,20 +632,14 @@
     height: 50px;
 }
 
-.sbgl .szsbcs img {
-    display: block;
-    width: 50px;
-    height: 50px;
-}
-
 .sbgl .jsbj {
     position: relative;
     top: 66px;
     width: 96%;
     left: 2%;
-    height: 10%;
-    min-height: 760px;
-    min-width: 1000px;
+    height: calc(100% - 66px);
+  /*  min-height: 760px;
+    min-width: 1000px;*/
     background-color: white;
 
 }
@@ -585,7 +647,9 @@
 .sbgl .jsbj form {
     position: absolute;
     top: 50px;
-    left: 100px;
+   /* left: 100px;*/
+    left:8%;
+    width:92%;
 }
 
 .sbgl .jsbj form select {
@@ -611,6 +675,7 @@
 
 .sbgl .jsbj form span {
     position: relative;
+    font-size:12px;
 }
 
 .sbgl .jsbj form select, .sbgl .jsbj form select:active, .sbgl .jsbj form input, .sbgl .jsbj form input:active {
@@ -618,17 +683,23 @@
     box-shadow: none;
     border: 1px solid #aaa;
 }
+.sbgl .jsbj .djs{
+    position: relative;
+    border:0;
+    width: 87%;
+    height:calc(100% - 220px);
+    top: 150px;
+    left:8%;
+    bottom: 100px;
 
+}
 .sbgl .jsbj .jskj {
     position: relative;
     border: 1px solid #bbb;
-    width: 80%;
-    top: 150px;
-    left: 185px;
-    height: 500px;
-    min-width: 220px;
-    background-color: #fff;
-    bottom: 100px;
+    width:calc(100% - 83px);
+    height:100%;
+    left: 72px;
+    top: 0px;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -650,21 +721,21 @@
 }
 
 .sbgl .jsbj .btn-primary, .sbgl .jsbj .btn-primary:active {
-    background-color: #FFD700;
+    background-color: #f8bd0a;
     width: 70px;
     position: absolute;
     right: 3%;
-    bottom: 60px;
+    bottom: 20px;
     border: 0;
     outline: none;
     box-shadow: none;
 }
 
 .sbgl .jsbj button:nth-child(7), .sbgl .jsbj button:nth-child(7):active {
-    background-color: #FFD700;
+    background-color: #f8bd0a;
     width: 90px;
     position: relative;
-    left: 6%;
+    left:20px;
     top: 0px;
     border: 0;
     outline: none;

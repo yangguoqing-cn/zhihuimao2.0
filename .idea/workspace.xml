@@ -4,8 +4,7 @@
     <list default="true" id="05266bc4-1c17-44bd-bc89-4cee06b98c01" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/shebei.css" afterPath="$PROJECT_DIR$/css/shebei.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery/shouye.js" afterPath="$PROJECT_DIR$/jquery/shouye.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shebei.html" afterPath="$PROJECT_DIR$/shebei.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shezhishebei.html" afterPath="$PROJECT_DIR$/shezhishebei.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,7 +51,7 @@
       <file leaf-file-name="mendian.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mendian.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.6785714">
               <caret line="178" column="51" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="51" />
               <folding>
                 <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -75,8 +74,18 @@
       <file leaf-file-name="shebei.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/shebei.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29759705">
-              <caret line="168" column="19" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.64695007">
+              <caret line="700" column="12" selection-start-line="700" selection-start-column="12" selection-end-line="700" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shezhishebei.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shezhishebei.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.964285">
+              <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -85,8 +94,8 @@
       <file leaf-file-name="shebei.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shebei.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.357142">
-              <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+            <state vertical-scroll-proportion="-39.857143">
+              <caret line="368" column="9" selection-start-line="368" selection-start-column="9" selection-end-line="368" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -139,6 +148,7 @@
         <option value="$PROJECT_DIR$/mendianbianji.html" />
         <option value="$PROJECT_DIR$/jquery/shouye.js" />
         <option value="$PROJECT_DIR$/shebei.html" />
+        <option value="$PROJECT_DIR$/shezhishebei.html" />
         <option value="$PROJECT_DIR$/css/shebei.css" />
       </list>
     </option>
@@ -458,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shezhishebei.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tianjiajihua.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -623,6 +626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="396" column="14" selection-start-line="396" selection-start-column="14" selection-end-line="396" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,6 +648,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -659,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mendian.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.6785714">
           <caret line="178" column="51" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="51" />
           <folding>
             <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -678,6 +685,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shebei.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-39.857143">
+          <caret line="368" column="9" selection-start-line="368" selection-start-column="9" selection-end-line="368" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/mendian.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.142858">
@@ -686,18 +701,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shebei.html">
+    <entry file="file://$PROJECT_DIR$/shezhishebei.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.357142">
-          <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+        <state vertical-scroll-proportion="-17.964285">
+          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/shebei.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29759705">
-          <caret line="168" column="19" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.64695007">
+          <caret line="700" column="12" selection-start-line="700" selection-start-column="12" selection-end-line="700" selection-end-column="12" />
           <folding />
         </state>
       </provider>
