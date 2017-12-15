@@ -6,373 +6,435 @@
 */
 /* 权限管理页的css样式 */
 .quanxian {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  padding-left: 160px;
-  padding-top: 150px;
-  background: #eee;
-  z-index: -1;
-  min-height: 860px;
-  min-width: 800px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    padding-left: 130px;
+    padding-top: 150px;
+    background: #eee;
+    z-index: -1;
 }
-.one{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  padding-left: 160px;
-  padding-top: 150px;
-  background: #eee;
-  z-index: -1;
-  min-height: 860px;
-  min-width: 800px;
+
+.one {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    padding-left: 130px;
+    padding-top: 150px;
+    background: #eee;
+    z-index: -1;
 }
+
 .seven {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  padding-left: 160px;
-  padding-top: 150px;
-  background: #eee;
-  z-index: -1;
-  min-height: 860px;
-  min-width: 800px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    padding-left: 130px;
+    padding-top: 150px;
+    background: #eee;
+    z-index: -1;
 }
-.eight{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  padding-left: 160px;
-  padding-top: 150px;
-  background: #eee;
-  z-index: -1;
-  min-height: 860px;
-  min-width: 800px;
+
+.eight {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    padding-left: 130px;
+    padding-top: 150px;
+    background: #eee;
+    z-index: -1;
+    min-height: 860px;
+    min-width: 800px;
 }
+
 .eight02 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  padding-left: 160px;
-  background: #eee;
-  z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    padding-left: 130px;
+    background: #eee;
+    z-index: -1;
 }
 
 .quanxian .daohang {
-  position: relative;
-  width: 100%;
-  height: 160px;
-  top: -142px;
+    position: relative;
+    width: 100%;
+    height: 160px;
+    top: -142px;
 }
 
 .quanxian .daohang ul {
-  position: absolute;
-  top: 100px;
-  left: 50px;
-  height: 100px;
-  border: 0;
+    position: absolute;
+    top: 100px;
+    left: 2.8%;
+    height: 42px;
+    border: 0;
+}
+
+.quanxian .daohang ul li {
+    position: relative;
+    height: 40px;
+    top: 0px;
+    z-index: 1;
 }
 
 .quanxian .daohang .nav-tabs > li.active > a {
-  border: 2px solid #12d4ed;
-  border-bottom: 2px solid #eee;
+    border: 1px solid #12d4ed;
+    border-bottom: 2px solid #eee;
+    font-size: 14px;
 }
 
 .quanxian .daohang .nav-tabs > li > a {
-  color: #333;
-  margin-right: 0;
-  border-radius: 0;
-  background-color: #eee;
-  bordee: 0;
-  /*  font-size:18px; */
+    color: #333;
+    margin-right: 0;
+    border-radius: 0;
+    background-color: #eee;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
 }
 
 .quanxian .xiangqing {
-  position: relative;
-  width: 90%;
-  text-align: center;
-  top: 0px;
-  left: 50px;
-  right: 50px;
-  height: 100%;
-  margin-top: -160px;
-  z-index: -1;
+    position: relative;
+    width: 94.4%;
+    height: calc(100% - 100px);
+    text-align: center;
+    top: 0px;
+    left: 2.8%;
+    height: 100%;
+    margin-top: -160px;
+    z-index: -1;
 }
 
 .quanxian .xiangqing > ul {
-  position: absolute;
-  height: 90%;
-  width: 100%;
-  border: 2px solid #12d4ed;
-  min-height: 500px;
-  min-width: 922px;
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    border: 1px solid #12d4ed;
+}
+
+.quanxian .xiangqing ul .yjnr {
+    position: relative;
+    height: calc(100% - 140px);
+    top: 140px;
+    width: 90%;
+    overflow: auto;
+    left: 5%;
 }
 
 .xiangqing .yj, .xiangqing .bb {
-  display: none;
+    display: none;
 }
 
 .xiangqing .fklb {
-  position: absolute;
-  width: 90%;
-  left: 5%;
-  height: 100px;
-  top: 40px;
-  background-color: #444;
-  z-index: 111;
-  color: white;
-  font-size: 14px;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 100px;
+    top: 40px;
+    background-color: #444;
+    z-index: 111;
+    color: white;
+    font-size: 14px;
 }
 
 .xiangqing .fklb span {
-  position: absolute;
-  left: 20px;
-  top: 40px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
 }
 
 .xiangqing .list-group-item {
-  position: relative;
-  border: none;
-  padding: 20px 15px;
-  width: 90%;
-  top: 140px;
-  left: 5%;
+    position: relative;
+    border: none;
+    padding: 20px 15px;
+    width: 100%;
+    top: 0px;
+    font-size: 12px;
 }
 
 .xiangqing .bbxx {
-  position: relative;
-  border: none;
-  width: 90%;
-  top: 120px;
-  left: 5%;
-  height: 70%;
-  min-height: 300px;
-  background-color: #fff;
-  bottom: 100px;
+    position: relative;
+    height: calc(100% - 180px);
+    top: 140px;
+    width: 90%;
+    overflow: auto;
+    left: 5%;
+    background-color: #fff;
 }
 
 .xiangqing .bbxx .list-group-item {
-  position: relative;
-  border: none;
-  padding: 20px 15px;
-  width: 90%;
-  top: 0px;
-  left: 1%;
+    position: relative;
+    border: none;
+    padding: 20px 15px;
+    width: 90%;
+    top: 0px;
+    left: 1%;
 }
 
 .xiangqing .bbxx .list-group-item .xx {
-  position: relative;
-  margin-top: 20px;
-  width: 100%;
-  text-align: left;
-  margin-left: 30px;
-  word-break: break-all;
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    margin-left: 30px;
+    word-break: break-all;
 }
 
 .xiangqing .list-group-item > .badge {
-  float: left;
-  background-color: #000;
-  display: block;
-  border-radius: 0;
-  padding: 6px;
-  margin-top: 6px;
+    float: left;
+    background-color: #000;
+    display: block;
+    border-radius: 0;
+    padding: 6px;
+    margin-top: 6px;
+}
+.xiangqing .bbxx .list-group-item .nr {
+    font-size:14px;
 }
 
-.xiangqing .list-group-item .nr {
-  position: relative;
-  width: 80%;
-  text-align: left;
-  margin-left: 30px;
-  word-break: break-all;
+.xiangqing .bbh label{
+    font-weight: normal;
+}
+@media (min-width: 1200px) {
+    .xiangqing .list-group-item .nr {
+        position: relative;
+        width: 80%;
+        text-align: left;
+        margin-left: 30px;
+        white-space: normal;
+        word-break: break-all;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .xiangqing .list-group-item .nr {
+        position: relative;
+        width: 73%;
+        text-align: left;
+        margin-left: 30px;
+        white-space: normal;
+        word-break: break-all;
+    }
+}
+
+@media (max-width: 992px) {
+    .xiangqing .list-group-item .nr {
+        position: relative;
+        width: 64%;
+        text-align: left;
+        margin-left: 30px;
+        white-space: normal;
+        word-break: break-all;
+    }
 }
 
 .xiangqing .list-group-item .wd {
-  position: absolute;
-  top: 40%;
-  width: 5%;
-  right: 2%;
-  top: 20%;
-  text-align: right;
+    position: absolute;
+    top: 40%;
+    width: 5%;
+    right: 2%;
+    top: 20%;
+    text-align: right;
 }
 
 .xiangqing .list-group-item .time {
-  position: absolute;
-  width: 15%;
-  right: 2%;
-  top: 50%;
-  text-align: right;
+    position: absolute;
+    width: 15%;
+    right: 2%;
+    top: 50%;
+    text-align: right;
+    min-width: 160px;
 }
 
 .xiangqing .list-group-item .xx {
-  position: relative;
-  margin-top: 20px;
-  width: 80%;
-  text-align: left;
-  margin-left: 30px;
-  word-break: break-all;
+    position: relative;
+    margin-top: 20px;
+    width: 80%;
+    text-align: left;
+    margin-left: 30px;
+    word-break: break-all;
 }
 
 .xiangqing .xian {
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  height: 1px;
-  border-bottom: 1px solid #ddd;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: 1px;
+    border-bottom: 1px solid #ddd;
 }
 
 .xiangqing .bbh {
-  position: relative;
-  left: 60px;
-  top: 22px;
-  text-align: left;
-  color: #333;
-  font-size: 14px;
-  height: 60%;
-  min-height: 200px;
+    position: relative;
+    left: 60px;
+    top: 22px;
+    text-align: left;
+    color: #333;
+    font-size: 14px;
+    width:calc(100% - 60px);
+    height: 60%;
+    min-height: 200px;
 }
 
 .xiangqing .bbh .bbjs {
-  position: relative;
-  top: -100px;
+    position: relative;
+    top: -195px;
 }
 
 .xiangqing .bbh input {
-  position: relative;
-  left: 100px;
-  top: -30px;
-  width: 10%;
-  outline: none;
-  box-shadow: none;
-  background-color: #fff;
-  border:1px solid #ccc;
+    position: relative;
+    left: 85px;
+    top: -30px;
+    width: 10%;
+    min-width:60px;
+    outline: none;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 0;
 }
 
 .xiangqing .bbh textarea {
-  position: relative;
-  left: 35px;
-  top: -18px;
-  width: 70%;
-  min-height: 200px;
-  resize: none;
-  outline: none;
+    position: relative;
+    left: 10px;
+    top: -18px;
+    width: 70%;
+ /*   min-height: 200px;*/
+    height: 200px;
+    resize: none;
+    outline: none;
+    font-size:12px;
+    border:1px solid #d6d6d6;
 
 }
 
 .xiangqing .bbh input.an {
-  position: relative;
-  left: -26px;
-  top: 20px;
-  width: 60px;
-  height: 30px;
-  min-width: 55px;
-  background-color: gold;
-  color: white;
-  box-shadow: none;
-  border-radius: 5px;
-  border: none;
+    position: relative;
+    left: -54px;
+    top: 10px;
+    width: 60px;
+    height: 30px;
+    min-width: 55px;
+    background-color: #f8bd0a;
+    color: white;
+    box-shadow: none;
+    border-radius: 5px;
+    border: none;
 }
 
 .quanxian .xiangqing .zuo {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  min-width: 350px;
+    position: absolute;
+    width: 50%;
+    height: 100%;
 }
 
 .quanxian .xiangqing .zuo ul {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 5% 5%;
-  min-width: 300px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 5% 5%;
 }
 
 .quanxian .xiangqing .zuo ul li {
-  position: relative;
-  width: 80%;
-  height: 14%;
-  left: 10%;
+    position: relative;
+    width: 90%;
+    height: 14%;
+    left: 10%;
 }
 
 .quanxian .xiangqing .zuo ul li:nth-child(odd) {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 .quanxian .xiangqing .zuo ul li:nth-child(even) {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .quanxian .xiangqing .zuo ul li:nth-child(1) {
-  background-color: #000;
-  color: white;
+    background-color: #000;
+    color: white;
 }
 
 .quanxian .xiangqing .zuo ul li span:nth-child(1) {
-  position: absolute;
-  font-size: 14px;
-  left: 15%;
-  top: 35%;
+    position: absolute;
+    font-size: 12px;
+    left: 15%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quanxian .xiangqing .zuo ul li span:nth-child(2) {
-  position: absolute;
-  font-size: 14px;
-  left: 60%;
-  top: 35%;
+    position: absolute;
+    font-size: 12px;
+    left: 60%;
+    height: 100%;
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quanxian .xiangqing .you {
-  position: absolute;
-  left: 50%;
-  width: 50%;
-  height: 100%;
-  min-width: 350px;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
 }
 
 .quanxian .xiangqing .you ul {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 5% 5%;
-  min-width: 300px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 5% 5%;
 }
 
 .quanxian .xiangqing .you ul li {
-  position: relative;
-  /* left:50px; */
-  width: 80%;
-  height: 14%;
-  left: 10%;
+    position: relative;
+    /* left:50px; */
+    width: 90%;
+    height: 14%;
+    left: 0;
 }
 
 .quanxian .xiangqing .you ul li span:nth-child(1) {
-  position: absolute;
-  font-size: 14px;
-  left: 15%;
-  top: 35%;
+    position: absolute;
+    font-size: 12px;
+    left: 15%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quanxian .xiangqing .you ul li span:nth-child(2) {
-  position: absolute;
-  font-size: 14px;
-  left: 60%;
-  top: 35%;
+    position: absolute;
+    font-size: 12px;
+    left: 60%;
+    height: 100%;
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.quanxian .xiangqing .zuo ul li:nth-child(1) span, .quanxian .xiangqing .you ul li:nth-child(1) span{
+    font-size: 14px;
+}
 .quanxian .xiangqing .you ul li:nth-child(odd) {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 .quanxian .xiangqing .you ul li:nth-child(even) {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .quanxian .xiangqing .you ul li:nth-child(1) {
-  background-color: #000;
-  color: white;
+    background-color: #000;
+    color: white;
 }

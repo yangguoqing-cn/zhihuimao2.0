@@ -544,22 +544,21 @@ ul, li, a {
 .logo .grzx {
   position: relative;
   width: 100%;
-  height: 100px;
-  top: 60px;
-
+  height: 120px;
+  top: 77px;
 }
 
 .logo .grxx {
   position: absolute;
   width: 96%;
   left: 2%;
-  height: 50px;
-  top: 25px;
+  height: 70px;
+  top: 30px;
   z-index: 111;
   color: white;
   font-size: 14px;
   background-color: #444;
-  line-height: 50px;
+  line-height: 70px;
   padding-left: 20px;
 }
 
@@ -571,17 +570,12 @@ ul, li, a {
   height: 50px;
 }
 
-.logo .grxx img {
-  display: block;
-  width: 50px;
-  height: 50px;
-}
-
 .logo .bd {
   position: relative;
   width: 100%;
-  min-height: 700px;
-  top: 60px;
+/*  min-height: 700px;*/
+  height:calc(100% - 197px);
+  top: 77px;
   background-color: #eee;
 }
 
@@ -589,9 +583,10 @@ ul, li, a {
   position: relative;
   width: 96%;
   left: 2%;
-  height: 10%;
-  min-height: 500px;
+  height: 90%;
+/*  min-height: 500px;*/
   background-color: white;
+  overflow: auto;
 }
 
 .logo form {
@@ -623,13 +618,12 @@ body .logo .bdform form a img {
 
 .logo form input.an {
   position: relative;
-  /*  bottom:10px; */
-  left: 230px;
-  top: 10px;
+  left: 245px;
+  top: 0px;
   width: 60px;
   height: 30px;
   min-width: 55px;
-  background-color: gold;
+  background-color: #f8bd0a;
   color: white;
   box-shadow: none;
   border-radius: 5px;

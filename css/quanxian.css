@@ -57,27 +57,21 @@
 
 .quanxian .xiangqing {
   position: relative;
- /* width:calc(100% - 50px);*/
   width:96%;
   height:calc(100% - 100px);
   text-align: center;
   top: 0px;
    left:2%;
-/*  left:5%;
-right:5%; */
   height: 100%;
   margin-top: -160px;
   z-index: -1;
 }
-
-
 
 .quanxian .xiangqing > ul {
   position: absolute;
   height: 90%;
   width: 100%;
   border: 1px solid #12d4ed;
-/*  min-height: 500px;*/
 }
 
 .xiangqing .yj, .xiangqing .bb {

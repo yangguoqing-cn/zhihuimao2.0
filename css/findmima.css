@@ -1,4 +1,9 @@
 /* remove codrops styles and reset the whole thing */
+.no-js,.container,section,body{
+    width:100%;
+    height:100%;
+/*    overflow: hidden;*/
+}
 body{
     margin:0;
     padding:0;
@@ -7,6 +12,8 @@ body{
 #container_demo{
     position:relative;
     text-align: left;
+    height:100%;
+    width:100%;
     margin: 0;
     padding: 0;
     margin: 0 auto;
@@ -45,41 +52,48 @@ header{
     height:100px;
     width:100%;
     max-width:1680px;
-    background-color: #444;
-    color:#999;
+    background-color: #26313a;
+    color:#fff;
     font-size:22px;
+    font-weight:bold;
     text-align: center;
     line-height: 100px;
 }
 /** The wrapper that will contain our two forms **/
 #wrapper{
-    top:280px;
-    width: 36%;
-    right: 0px;
-    margin: 0px auto;
-    min-width: 560px;
     position: relative;
+    right: 0px;
+    top:100px;
+    height:calc(100% - 100px);
+    margin: 0px auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #wrapper h1{
     font-size: 14px;
     color: #ccc;
     font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
-    font-weight: bold;
     position:relative;
     width:100%;
-    background-color: #ddd;
+    background-color: #f3f3f3;
     margin:0;
     padding:0;
     height:60px;
     color:#333;
     line-height: 60px;
 }
+#wrapper h1 span{
+    position: relative;
+    left:30px;
+}
 #wrapper h1 a{
     position:absolute;
-    margin-left: 86%;
+    margin-left: 83%;
     text-decoration: none;
-    width:100%;
+    width:14px;
     font-size:32px;
     color:#333;
 }
@@ -93,9 +107,10 @@ header{
     margin: 0px;
 }
 #wrapper label{
-    color: rgb(64, 92, 96);
+    color: #333;
     position: relative;
     left:100px;
+    font-weight: normal;
 }
 
 /**** advanced input styling ****/
@@ -117,11 +132,13 @@ input {
     width:30%;
     position:relative;
     left:115px;
+    border:1px solid #dadada;
 }
 #wrapper input[type="password"]{
  width:10%;
  position:relative;
  left:100px;
+ border:1px solid #dadada;
 }
 #wrapper p.button input{
     position:relative;
@@ -143,15 +160,17 @@ input {
     position:relative;
     top:-40px;
     left:160px;
+    width:calc(100% - 160px);
 }
 #wrapper p.login button{
     width:140px;
     height:40px;
     font-size:16px;
+    background:#719ca1;
+    border:0;
 }
 #wrapper .qx{
     position:absolute;
-    background-color: #ccc;
     border:0;
     width:70px;
     height:34px;
@@ -159,10 +178,12 @@ input {
     right:100px;
     bottom: 20px;
     cursor:pointer;
+    background: #e3e3e3;
 }
 #wrapper .bc{
     position:absolute;
-    background-color: gold;
+    background-color:#f8bd0a;
+    color:white;
     border:0;
     width:70px;
     height:34px;
@@ -270,8 +291,7 @@ p.change_link{
 /** Styling both forms **/
 #register,
 #login{
-    position: absolute;
-    top: 0px;
+   position: absolute;
     width: 100%;
     background-color: #fff;
 }
@@ -351,13 +371,17 @@ p.change_link{
 /* 模态框 */
 #myModal .modal-dialog{
     position:absolute;
-    top:380px;
-    left:40%;
-    width:16%;
-    height:160px;
+  width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+   /* align-items: center;*/
 }
 #myModal .modal-dialog .modal-content{
     height:100%;
+    width:260px;
+    height:150px;
+    top:40%;
     text-align: center;
-    line-height:150px;
+    line-height:130px;
 }

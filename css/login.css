@@ -1,13 +1,19 @@
 
 /* remove codrops styles and reset the whole thing */
+.no-js,.container,section,body{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
 #container_demo{
 	text-align: left;
+	height:100%;
+	width:100%;
 	margin: 0;
 	padding: 0;
 	margin: 0 auto;
 	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
 }
-
 /** fonts used for the icons **/
 @font-face {
 	font-family: 'FontomasCustomRegular';
@@ -37,10 +43,14 @@ a.hiddenanchor{
 #wrapper{
 	width: 60%;
 	right: 0px;
-	min-height: 560px;
+	height:100%;
+	/*min-height: 560px;*/
 	margin: 0px auto;
 	width: 500px;
 	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /**** Styling the form elements **/
 
@@ -66,7 +76,7 @@ a.hiddenanchor{
 
 
 #wrapper p{
-	margin-top:20px;
+	margin-top:10px;
 	margin-bottom:15px;
 }
 #wrapper p:first-child{
@@ -254,7 +264,6 @@ p.change_link{
 #register,
 #login{
 	position: absolute;
-	top: 200px;
 	width: 68%;
 	left:10%;
 	height:260px;
