@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-11-30 14:28:13
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-11-30 14:28:17
+* @Last Modified time: 2017-12-18 17:13:08
 */
 /* 权限管理页的css样式 */
 .quanxian {
@@ -85,7 +85,7 @@
 
 .quanxian .daohang .nav-tabs > li.active > a {
     border: 1px solid #12d4ed;
-    border-bottom: 2px solid #eee;
+    border-bottom: 3px solid #eee;
     font-size: 14px;
 }
 

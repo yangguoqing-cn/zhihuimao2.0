@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-11-30 14:30:33
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-11-30 14:30:35
+* @Last Modified time: 2017-12-18 17:11:40
 */
 .quanxian {
   position: absolute;
@@ -71,7 +71,7 @@
 
 .quanxian .daohang .nav-tabs > li.active > a {
   border: 1px solid #12d4ed;
-  border-bottom: 2px solid #eee;
+  border-bottom: 3px solid #eee;
   font-size: 16px;
 }
 

@@ -1,7 +1,7 @@
 /* @Author: Marte
 * @Date:   2017-11-13 10:44:26
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-12-12 14:37:32
+* @Last Modified time: 2017-12-18 10:38:09
 */
 ul, li, a {
   text-decoration: none;
@@ -504,8 +504,6 @@ ul, li, a {
   height: 24px;
   border-radius: 70px;
   position: absolute;
-/*  left: 62.5%;
-  top: 40%;*/
   cursor:pointer;
 }
 
